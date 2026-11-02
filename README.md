@@ -29,7 +29,7 @@
 
 完整剧本与视觉规范见 [`film/SCRIPT.md`](film/SCRIPT.md)、[`film/SPEC.md`](film/SPEC.md)。所有信件原文均已进入公有领域。
 
-## 怎么做的
+## 关于
 
 - **画面**：[three.js](https://threejs.org) 写的“纸雕剧场”引擎（[`film/lib/world.js`](film/lib/world.js)）：纸层、背光与边缘光、雾、天空与烟的着色器、粒子、调色与胶片颗粒、烧穿转场。每个镜头是一个构建函数（`film/lib/shots_*.js`）。
 - **成片**：[HyperFrames](https://hyperframes.heygen.com)（HTML 渲染为视频）。时间线由脚本根据配音长度自动排布。
@@ -146,7 +146,7 @@ python work/tools/comfy_gen.py work/silhouettes.json work/sil_raw
 python work/tools/cutout.py work/sil_raw film/assets/sil
 ```
 
-## 已知限制
+## 限制
 
 - 尾声“同样的话”一场用到 Windows 自带字体（Segoe Script、Malgun Gothic、Nirmala UI 等）书写多国文字；在其他系统上会由系统字体替代。
 - 渲染需要 GPU 加速的 Chrome；全片约 15 分钟（RTX 级显卡）。
