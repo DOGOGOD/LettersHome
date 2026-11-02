@@ -1,0 +1,13 @@
+# Python 3.11+ — the tools in work/tools
+numpy
+scipy
+soundfile
+librosa
+pyloudnorm
+pillow
+opencv-python
+fonttools[woff]
+# voices (Qwen3-TTS) and their checks (Whisper) — GPU recommended
+torch
+transformers
+qwen-tts

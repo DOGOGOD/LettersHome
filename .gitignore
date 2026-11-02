@@ -1,0 +1,44 @@
+# --- outputs ------------------------------------------------------------------
+*.mp4
+film/renders/
+work/final_mix.wav
+work/mix.wav
+
+# --- large, re-downloadable (python work/tools/fetch_assets.py) -----------------
+film/assets/audio/music/
+film/assets/fonts/src/
+work/music_src/
+work/sfx_src/
+work/models/
+
+# --- caches & tool state ------------------------------------------------------
+film/.hyperframes/
+film/.thumbnails/
+film/.waveform-cache/
+film/.media/
+work/hanzi_cache/
+node_modules/
+__pycache__/
+*.pyc
+
+# --- intermediate generations, takes and review material ------------------------
+work/vo/
+work/assets2/
+work/assets3/
+work/assets4/
+work/sil_raw/
+work/sil_fix/
+work/grabs/
+work/tests/
+work/*.log
+work/*.err
+work/check*.json
+work/snap.json
+work/charset.txt
+work/*sheet*.jpg
+work/*sheet*.png
+work/rev_*.jpg
+voice_samples/
+
+# the CC BY field recording that was replaced by a synthesized one (not used by the film)
+film/assets/audio/sfx/train_loco.wav

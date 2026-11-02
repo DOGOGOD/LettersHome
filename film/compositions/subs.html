@@ -1,0 +1,123 @@
+<template>
+  <style>
+      @font-face { font-family: "Noto Serif SC"; src: url("assets/fonts/NotoSerifSC.woff2") format("woff2"); font-weight: 200 900; }
+      @font-face { font-family: "Letters Kai"; src: url("assets/fonts/LettersKai.woff2") format("woff2"); }
+      @font-face { font-family: "Ma Shan Zheng"; src: url("assets/fonts/MaShanZheng.woff2") format("woff2"); }
+      @font-face { font-family: "Zhi Mang Xing"; src: url("assets/fonts/ZhiMangXing.woff2") format("woff2"); }
+      @font-face { font-family: "Long Cang"; src: url("assets/fonts/LongCang.woff2") format("woff2"); }
+      @font-face { font-family: "Yozai"; src: url("assets/fonts/Yozai.woff2") format("woff2"); }
+      @font-face { font-family: "Pinyon Script"; src: url("assets/fonts/PinyonScript.woff2") format("woff2"); }
+      @font-face { font-family: "Letters Spencer"; src: url("assets/fonts/LettersSpencer.woff2") format("woff2"); }
+      @font-face { font-family: "La Belle Aurore"; src: url("assets/fonts/LaBelleAurore.woff2") format("woff2"); }
+      @font-face { font-family: "Cedarville Cursive"; src: url("assets/fonts/CedarvilleCursive.woff2") format("woff2"); }
+      @font-face { font-family: "EB Garamond"; src: url("assets/fonts/EBGaramond.woff2") format("woff2"); font-weight: 400 800; }
+      @font-face { font-family: "EB Garamond"; src: url("assets/fonts/EBGaramondItalic.woff2") format("woff2"); font-style: italic; font-weight: 400 800; }
+
+      #root { position: absolute; inset: 0; }
+      .sub { position: absolute; left: 0; right: 0; bottom: 0; height: 132px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+      .sub .in { opacity: 0; }
+      .sub .orig { display: block; font-family: "EB Garamond", serif; font-style: italic; font-size: 25px; color: #c9bfae; letter-spacing: .02em; margin-bottom: 6px; }
+      .sub .cn { display: block; font-family: "Noto Serif SC", serif; font-size: 33px; font-weight: 400; color: #f1e9da; letter-spacing: .06em; }
+  </style>
+  <div id="root" data-composition-id="subs" data-width="1920" data-height="1080" data-layout-allow-caption-zone>
+    <div id="sub00" class="clip sub" data-start="37.9" data-duration="8.776" data-track-index="0"><div class="in"><span class="cn">国破山河在，城春草木深。</span></div></div>
+    <div id="sub01" class="clip sub" data-start="47.176" data-duration="6.979" data-track-index="1"><div class="in"><span class="cn">感时花溅泪，恨别鸟惊心。</span></div></div>
+    <div id="sub02" class="clip sub" data-start="55.055" data-duration="7.981" data-track-index="0"><div class="in"><span class="cn">烽火连三月，家书抵万金。</span></div></div>
+    <div id="sub03" class="clip sub" data-start="105.336" data-duration="2.001" data-track-index="1"><div class="in"><span class="orig">My very dear Sarah,</span><span class="cn">我最亲爱的萨拉：</span></div></div>
+    <div id="sub04" class="clip sub" data-start="108.187" data-duration="5.273" data-track-index="0"><div class="in"><span class="orig">The indications are very strong that we shall move in a few days — perhaps tomorrow.</span><span class="cn">种种迹象表明，几天之内我们就要开拔——也许就是明天。</span></div></div>
+    <div id="sub05" class="clip sub" data-start="114.01" data-duration="7.809" data-track-index="1"><div class="in"><span class="orig">Lest I should not be able to write you again, I feel impelled to write lines that may fall under your eye when I shall be no more.</span><span class="cn">我怕再没有机会给你写信，所以写下这几行字。等我不在了，它们会落进你的眼里。</span></div></div>
+    <div id="sub06" class="clip sub" data-start="123.569" data-duration="7.638" data-track-index="0"><div class="in"><span class="orig">Sarah, my love for you is deathless. It seems to bind me with mighty cables that nothing but Omnipotence could break.</span><span class="cn">萨拉，我对你的爱永不消亡。它像粗大的缆绳把我捆住，除了上苍，没有什么能将它挣断。</span></div></div>
+    <div id="sub07" class="clip sub" data-start="132.357" data-duration="5.014" data-track-index="1"><div class="in"><span class="orig">If I do not return, my dear Sarah, never forget how much I love you.</span><span class="cn">如果我回不来了，亲爱的萨拉，永远不要忘记我有多爱你。</span></div></div>
+    <div id="sub08" class="clip sub" data-start="138.121" data-duration="4.985" data-track-index="0"><div class="in"><span class="orig">And if there be a soft breeze upon your cheek, it shall be my breath.</span><span class="cn">如果有一阵微风拂过你的脸颊，那就是我的呼吸。</span></div></div>
+    <div id="sub09" class="clip sub" data-start="143.856" data-duration="6.502" data-track-index="1"><div class="in"><span class="orig">Sarah, do not mourn me dead. Think I am gone, and wait for thee, for we shall meet again.</span><span class="cn">萨拉，不要为我的死哀伤。就当我只是走了，等着我，我们终会重逢。</span></div></div>
+    <div id="sub10" class="clip sub" data-start="203.108" data-duration="8.982" data-track-index="0"><div class="in"><span class="cn">意映卿卿如晤：吾今以此书与汝永别矣！</span></div></div>
+    <div id="sub11" class="clip sub" data-start="212.74" data-duration="7.99" data-track-index="1"><div class="in"><span class="cn">吾作此书时，尚是世中一人；汝看此书时，吾已成为阴间一鬼。</span></div></div>
+    <div id="sub12" class="clip sub" data-start="221.68" data-duration="6.603" data-track-index="0"><div class="in"><span class="cn">吾至爱汝，即此爱汝一念，使吾勇于就死也。</span></div></div>
+    <div id="sub13" class="clip sub" data-start="229.233" data-duration="13.078" data-track-index="1"><div class="in"><span class="cn">窗外疏梅筛月影，依稀掩映；吾与汝并肩携手，低低切切，何事不语？何情不诉？</span></div></div>
+    <div id="sub14" class="clip sub" data-start="243.261" data-duration="9.798" data-track-index="0"><div class="in"><span class="cn">纸短情长，所未尽者，尚有万千。吾今不能见汝矣！</span></div></div>
+    <div id="sub15" class="clip sub" data-start="311.209" data-duration="2.046" data-track-index="1"><div class="in"><span class="orig">Ma bien chère Lucie,</span><span class="cn">我亲爱的露西：</span></div></div>
+    <div id="sub16" class="clip sub" data-start="313.705" data-duration="3.571" data-track-index="0"><div class="in"><span class="orig">Quand cette lettre te parviendra, je serai mort fusillé.</span><span class="cn">当这封信到你手里的时候，我已经被枪决了。</span></div></div>
+    <div id="sub17" class="clip sub" data-start="318.026" data-duration="3.897" data-track-index="1"><div class="in"><span class="orig">Je ne suis pas plus coupable que les autres, mais il faut un exemple.</span><span class="cn">我并不比别人更有罪，但他们需要一个“榜样”。</span></div></div>
+    <div id="sub18" class="clip sub" data-start="323.273" data-duration="5.849" data-track-index="0"><div class="in"><span class="orig">Je te fais mes derniers adieux à la hâte, les larmes aux yeux, l&#x27;âme en peine.</span><span class="cn">我匆匆向你作最后的告别，眼里含着泪，心里满是痛苦。</span></div></div>
+    <div id="sub19" class="clip sub" data-start="329.472" data-duration="4.595" data-track-index="1"><div class="in"><span class="orig">Je te demande à genoux humblement pardon pour toute la peine que je vais te causer.</span><span class="cn">我跪下来，卑微地求你原谅，原谅我将带给你的一切悲伤。</span></div></div>
+    <div id="sub20" class="clip sub" data-start="335.417" data-duration="1.793" data-track-index="0"><div class="in"><span class="orig">Je meurs innocent.</span><span class="cn">我死得清白。</span></div></div>
+    <div id="sub21" class="clip sub" data-start="338.16" data-duration="3.966" data-track-index="1"><div class="in"><span class="orig">Ma dernière pensée, à toi, jusqu&#x27;au bout.</span><span class="cn">我最后的念头是你，直到最后一刻。</span></div></div>
+    <div id="sub22" class="clip sub" data-start="447.676" data-duration="1.147" data-track-index="0"><div class="in"><span class="cn">宁儿：</span></div></div>
+    <div id="sub23" class="clip sub" data-start="449.573" data-duration="6.369" data-track-index="1"><div class="in"><span class="cn">母亲对于你没有能尽到教育的责任，实在是遗憾的事情。</span></div></div>
+    <div id="sub24" class="clip sub" data-start="456.692" data-duration="8.134" data-track-index="0"><div class="in"><span class="cn">母亲因为坚决地做了反满抗日的斗争，今天已经到了牺牲的前夕了。</span></div></div>
+    <div id="sub25" class="clip sub" data-start="466.176" data-duration="4.822" data-track-index="1"><div class="in"><span class="cn">母亲和你在生前是永久没有再见的机会了。</span></div></div>
+    <div id="sub26" class="clip sub" data-start="471.948" data-duration="6.651" data-track-index="0"><div class="in"><span class="cn">希望你，宁儿啊！赶快成人，来安慰你地下的母亲！</span></div></div>
+    <div id="sub27" class="clip sub" data-start="479.549" data-duration="8.342" data-track-index="1"><div class="in"><span class="cn">我最亲爱的孩子啊！母亲不用千言万语来教育你，就用实行来教育你。</span></div></div>
+    <div id="sub28" class="clip sub" data-start="488.841" data-duration="6.196" data-track-index="0"><div class="in"><span class="cn">在你长大成人之后，希望不要忘记你的母亲是为国而牺牲的！</span></div></div>
+    <div id="sub29" class="clip sub" data-start="530.187" data-duration="11.994" data-track-index="1"><div class="in"><span class="cn">志兰！亲爱的，别时容易见时难，分离廿一个月了，何日相聚，念念、念念！</span></div></div>
+    <div id="sub30" class="clip sub" data-start="543.731" data-duration="11.663" data-track-index="0"><div class="in"><span class="cn">有时总仿佛有你及北北，与我在一块玩着、谈着，特别是北北非常调皮……</span></div></div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#sub00 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 37.9);
+      tl.to("#sub00 .in", { opacity: 0, duration: 0.3 }, 46.326);
+      tl.fromTo("#sub01 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 47.176);
+      tl.to("#sub01 .in", { opacity: 0, duration: 0.3 }, 53.805);
+      tl.fromTo("#sub02 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 55.055);
+      tl.to("#sub02 .in", { opacity: 0, duration: 0.3 }, 62.686);
+      tl.fromTo("#sub03 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 105.336);
+      tl.to("#sub03 .in", { opacity: 0, duration: 0.3 }, 106.987);
+      tl.fromTo("#sub04 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 108.187);
+      tl.to("#sub04 .in", { opacity: 0, duration: 0.3 }, 113.11);
+      tl.fromTo("#sub05 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 114.01);
+      tl.to("#sub05 .in", { opacity: 0, duration: 0.3 }, 121.469);
+      tl.fromTo("#sub06 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 123.569);
+      tl.to("#sub06 .in", { opacity: 0, duration: 0.3 }, 130.857);
+      tl.fromTo("#sub07 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 132.357);
+      tl.to("#sub07 .in", { opacity: 0, duration: 0.3 }, 137.021);
+      tl.fromTo("#sub08 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 138.121);
+      tl.to("#sub08 .in", { opacity: 0, duration: 0.3 }, 142.756);
+      tl.fromTo("#sub09 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 143.856);
+      tl.to("#sub09 .in", { opacity: 0, duration: 0.3 }, 150.008);
+      tl.fromTo("#sub10 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 203.108);
+      tl.to("#sub10 .in", { opacity: 0, duration: 0.3 }, 211.74);
+      tl.fromTo("#sub11 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 212.74);
+      tl.to("#sub11 .in", { opacity: 0, duration: 0.3 }, 220.38);
+      tl.fromTo("#sub12 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 221.68);
+      tl.to("#sub12 .in", { opacity: 0, duration: 0.3 }, 227.933);
+      tl.fromTo("#sub13 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 229.233);
+      tl.to("#sub13 .in", { opacity: 0, duration: 0.3 }, 241.961);
+      tl.fromTo("#sub14 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 243.261);
+      tl.to("#sub14 .in", { opacity: 0, duration: 0.3 }, 252.709);
+      tl.fromTo("#sub15 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 311.209);
+      tl.to("#sub15 .in", { opacity: 0, duration: 0.3 }, 312.905);
+      tl.fromTo("#sub16 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 313.705);
+      tl.to("#sub16 .in", { opacity: 0, duration: 0.3 }, 316.926);
+      tl.fromTo("#sub17 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 318.026);
+      tl.to("#sub17 .in", { opacity: 0, duration: 0.3 }, 321.573);
+      tl.fromTo("#sub18 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 323.273);
+      tl.to("#sub18 .in", { opacity: 0, duration: 0.3 }, 328.772);
+      tl.fromTo("#sub19 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 329.472);
+      tl.to("#sub19 .in", { opacity: 0, duration: 0.3 }, 333.717);
+      tl.fromTo("#sub20 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 335.417);
+      tl.to("#sub20 .in", { opacity: 0, duration: 0.3 }, 336.86);
+      tl.fromTo("#sub21 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 338.16);
+      tl.to("#sub21 .in", { opacity: 0, duration: 0.3 }, 341.776);
+      tl.fromTo("#sub22 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 447.676);
+      tl.to("#sub22 .in", { opacity: 0, duration: 0.3 }, 448.473);
+      tl.fromTo("#sub23 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 449.573);
+      tl.to("#sub23 .in", { opacity: 0, duration: 0.3 }, 455.592);
+      tl.fromTo("#sub24 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 456.692);
+      tl.to("#sub24 .in", { opacity: 0, duration: 0.3 }, 464.476);
+      tl.fromTo("#sub25 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 466.176);
+      tl.to("#sub25 .in", { opacity: 0, duration: 0.3 }, 470.648);
+      tl.fromTo("#sub26 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 471.948);
+      tl.to("#sub26 .in", { opacity: 0, duration: 0.3 }, 478.249);
+      tl.fromTo("#sub27 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 479.549);
+      tl.to("#sub27 .in", { opacity: 0, duration: 0.3 }, 487.541);
+      tl.fromTo("#sub28 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 488.841);
+      tl.to("#sub28 .in", { opacity: 0, duration: 0.3 }, 494.687);
+      tl.fromTo("#sub29 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 530.187);
+      tl.to("#sub29 .in", { opacity: 0, duration: 0.3 }, 541.831);
+      tl.fromTo("#sub30 .in", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 543.731);
+      tl.to("#sub30 .in", { opacity: 0, duration: 0.3 }, 555.044);
+      window.__timelines["subs"] = tl;
+    })();
+  </script>
+</template>

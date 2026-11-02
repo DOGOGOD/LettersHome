@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="zh" data-resolution="landscape">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>家书 · Letters Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script type="importmap">
+      { "imports": { "three": "./lib/three.module.min.js" } }
+    </script>
+    <style>
+      @font-face { font-family: "Noto Serif SC"; src: url("assets/fonts/NotoSerifSC.woff2") format("woff2"); font-weight: 200 900; }
+      @font-face { font-family: "Letters Kai"; src: url("assets/fonts/LettersKai.woff2") format("woff2"); }
+      @font-face { font-family: "Ma Shan Zheng"; src: url("assets/fonts/MaShanZheng.woff2") format("woff2"); }
+      @font-face { font-family: "Zhi Mang Xing"; src: url("assets/fonts/ZhiMangXing.woff2") format("woff2"); }
+      @font-face { font-family: "Long Cang"; src: url("assets/fonts/LongCang.woff2") format("woff2"); }
+      @font-face { font-family: "Yozai"; src: url("assets/fonts/Yozai.woff2") format("woff2"); }
+      @font-face { font-family: "Pinyon Script"; src: url("assets/fonts/PinyonScript.woff2") format("woff2"); }
+      @font-face { font-family: "Letters Spencer"; src: url("assets/fonts/LettersSpencer.woff2") format("woff2"); }
+      @font-face { font-family: "La Belle Aurore"; src: url("assets/fonts/LaBelleAurore.woff2") format("woff2"); }
+      @font-face { font-family: "Cedarville Cursive"; src: url("assets/fonts/CedarvilleCursive.woff2") format("woff2"); }
+      @font-face { font-family: "EB Garamond"; src: url("assets/fonts/EBGaramond.woff2") format("woff2"); font-weight: 400 800; }
+      @font-face { font-family: "EB Garamond"; src: url("assets/fonts/EBGaramondItalic.woff2") format("woff2"); font-style: italic; font-weight: 400 800; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: #000; }
+      #root { position: relative; width: 1920px; height: 1080px; background: #000; }
+      #world { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; display: block; z-index: 0; }
+      #bars { position: absolute; inset: 0; z-index: 50; pointer-events: none; }
+      #bars .bar { position: absolute; left: 0; right: 0; height: 132px; background: #000; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="785.704" data-width="1920" data-height="1080" data-fps="24">
+      <canvas id="world" class="clip" data-start="0" data-duration="785.704" data-track-index="0" width="1920" height="1080"></canvas>
+      <div id="cards-open" data-composition-id="cards-open" data-composition-src="compositions/cards-open.html" data-start="10.5" data-duration="18.4" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080" style="z-index: 20"></div>
+      <div id="cards-prologue" data-composition-id="cards-prologue" data-composition-src="compositions/cards-prologue.html" data-start="62.736" data-duration="29.2" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080" style="z-index: 20"></div>
+      <div id="cards-title" data-composition-id="cards-title" data-composition-src="compositions/cards-title.html" data-start="94.736" data-duration="5.8" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080" style="z-index: 20"></div>
+      <div id="cards-c1" data-composition-id="cards-c1" data-composition-src="compositions/cards-c1.html" data-start="100.336" data-duration="84.172" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080" style="z-index: 20"></div>
+      <div id="cards-c2" data-composition-id="cards-c2" data-composition-src="compositions/cards-c2.html" data-start="185.108" data-duration="90.701" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080" style="z-index: 20"></div>
+      <div id="cards-c3" data-composition-id="cards-c3" data-composition-src="compositions/cards-c3.html" data-start="276.609" data-duration="139.467" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080" style="z-index: 20"></div>
+      <div id="cards-c4" data-composition-id="cards-c4" data-composition-src="compositions/cards-c4.html" data-start="416.876" data-duration="100.711" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080" style="z-index: 20"></div>
+      <div id="cards-c5" data-composition-id="cards-c5" data-composition-src="compositions/cards-c5.html" data-start="517.787" data-duration="96.357" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080" style="z-index: 20"></div>
+      <div id="cards-epi" data-composition-id="cards-epi" data-composition-src="compositions/cards-epi.html" data-start="622.744" data-duration="137.06" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080" style="z-index: 20"></div>
+      <div id="cards-end" data-composition-id="cards-end" data-composition-src="compositions/cards-end.html" data-start="763.804" data-duration="21.2" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080" style="z-index: 20"></div>
+      <div id="phone" data-composition-id="phone" data-composition-src="compositions/phone.html" data-start="702.644" data-duration="35.26" data-track-index="3" data-track-kind="graphics" data-width="1920" data-height="1080" style="z-index: 30"></div>
+      <div id="bars" class="clip" data-start="0" data-duration="785.704" data-track-index="4" data-layout-ignore><div class="bar" style="top: 0"></div><div class="bar" style="bottom: 0"></div></div>
+      <div id="subs" data-composition-id="subs" data-composition-src="compositions/subs.html" data-start="0" data-duration="785.704" data-track-index="5" data-track-kind="captions" data-width="1920" data-height="1080" style="z-index: 60"></div>
+      <audio id="au000" class="clip" src="assets/audio/sfx/match_strike.wav" data-start="1.35" data-duration="2.1" data-volume="0.275" data-track-index="22"></audio>
+      <audio id="au001" class="clip" src="assets/audio/sfx/pen2.wav" data-start="4.1" data-duration="5.6" data-media-start="3.0" data-volume="0.1" data-fade-in="0.3" data-fade-out="0.6" data-track-index="22"></audio>
+      <audio id="au002" class="clip" src="assets/audio/sfx/paper_burn.wav" data-start="29.6" data-duration="5.5" data-volume="0.175" data-fade-in="1.2" data-fade-out="1.0" data-track-index="22"></audio>
+      <audio id="au003" class="clip" src="assets/audio/sfx/fire_city.wav" data-start="34.0" data-duration="41.0" data-volume="0.225" data-fade-in="2.5" data-fade-out="2.5" data-track-index="23"></audio>
+      <audio id="au004" class="clip" src="assets/audio/sfx/wind_warm.wav" data-start="34.0" data-duration="38.5" data-volume="0.125" data-fade-in="1.5" data-fade-out="1.0" data-track-index="24"></audio>
+      <audio id="au005" class="clip" src="assets/audio/sfx/wind_warm.wav" data-start="71.5" data-duration="2.5" data-media-start="7.3" data-volume="0.125" data-fade-in="1.0" data-fade-out="1.5" data-track-index="22"></audio>
+      <audio id="au006" class="clip" src="assets/audio/music/m_sarabande.wav" data-start="10.0" data-duration="78.0" data-volume="0.725" data-fade-in="6.0" data-fade-out="4.0" data-track-index="21"></audio>
+      <audio id="au007" class="clip" src="assets/audio/vo/dufu_00.wav" data-start="38.0" data-duration="8.996" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au008" class="clip" src="assets/audio/vo/dufu_01.wav" data-start="47.276" data-duration="7.199" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au009" class="clip" src="assets/audio/vo/dufu_02.wav" data-start="55.155" data-duration="8.201" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au010" class="clip" src="assets/audio/music/m_air.wav" data-start="100.636" data-duration="78" data-volume="0.435" data-fade-in="3.0" data-fade-out="6.0" data-track-index="21"></audio>
+      <audio id="au011" class="clip" src="assets/audio/vo/ballou_00.wav" data-start="105.436" data-duration="1.791" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au012" class="clip" src="assets/audio/vo/ballou_01.wav" data-start="108.287" data-duration="5.063" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au013" class="clip" src="assets/audio/vo/ballou_02.wav" data-start="114.11" data-duration="7.599" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au014" class="clip" src="assets/audio/vo/ballou_03.wav" data-start="123.669" data-duration="7.428" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au015" class="clip" src="assets/audio/vo/ballou_04.wav" data-start="132.457" data-duration="4.804" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au016" class="clip" src="assets/audio/vo/ballou_05.wav" data-start="138.221" data-duration="4.775" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au017" class="clip" src="assets/audio/vo/ballou_06.wav" data-start="143.956" data-duration="6.292" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au018" class="clip" src="assets/audio/sfx/crickets.wav" data-start="99.836" data-duration="29.5" data-volume="0.14" data-fade-in="2.0" data-fade-out="1.0" data-track-index="22"></audio>
+      <audio id="au019" class="clip" src="assets/audio/sfx/crickets.wav" data-start="128.336" data-duration="3.221" data-media-start="7.3" data-volume="0.14" data-fade-in="1.0" data-fade-out="1.5" data-track-index="23"></audio>
+      <audio id="au020" class="clip" src="assets/audio/sfx/wind_warm.wav" data-start="99.836" data-duration="38.5" data-volume="0.11" data-fade-in="2.0" data-fade-out="1.0" data-track-index="24"></audio>
+      <audio id="au021" class="clip" src="assets/audio/sfx/wind_warm.wav" data-start="137.336" data-duration="7.02" data-media-start="7.3" data-volume="0.11" data-fade-in="1.0" data-fade-out="1.5" data-track-index="22"></audio>
+      <audio id="au022" class="clip" src="assets/audio/sfx/wind_warm.wav" data-start="131.057" data-duration="7.364" data-volume="0.15" data-fade-in="1.5" data-fade-out="1.5" data-track-index="25"></audio>
+      <audio id="au023" class="clip" src="assets/audio/sfx/crickets.wav" data-start="144.356" data-duration="8.852" data-volume="0.1" data-fade-in="1.5" data-fade-out="1.5" data-track-index="23"></audio>
+      <audio id="au024" class="clip" src="assets/audio/sfx/wind_warm.wav" data-start="151.608" data-duration="15.0" data-volume="0.19" data-fade-in="1.5" data-fade-out="1.5" data-track-index="22"></audio>
+      <audio id="au025" class="clip" src="assets/audio/sfx/fire_city.wav" data-start="152.608" data-duration="14.0" data-volume="0.11" data-fade-in="1.5" data-fade-out="1.5" data-track-index="24"></audio>
+      <audio id="au026" class="clip" src="assets/audio/sfx/cannon.wav" data-start="153.108" data-duration="8.5" data-volume="0.19" data-track-index="25"></audio>
+      <audio id="au027" class="clip" src="assets/audio/sfx/cannon.wav" data-start="154.037" data-duration="8.5" data-volume="0.275" data-track-index="23"></audio>
+      <audio id="au028" class="clip" src="assets/audio/sfx/cannon.wav" data-start="154.965" data-duration="8.5" data-volume="0.19" data-track-index="26"></audio>
+      <audio id="au029" class="clip" src="assets/audio/sfx/cannon.wav" data-start="155.894" data-duration="8.5" data-volume="0.275" data-track-index="27"></audio>
+      <audio id="au030" class="clip" src="assets/audio/sfx/cannon.wav" data-start="156.822" data-duration="8.5" data-volume="0.19" data-track-index="28"></audio>
+      <audio id="au031" class="clip" src="assets/audio/sfx/cannon.wav" data-start="157.751" data-duration="8.5" data-volume="0.275" data-track-index="29"></audio>
+      <audio id="au032" class="clip" src="assets/audio/sfx/cannon.wav" data-start="158.679" data-duration="8.5" data-volume="0.19" data-track-index="30"></audio>
+      <audio id="au033" class="clip" src="assets/audio/sfx/cannon.wav" data-start="159.608" data-duration="8.5" data-volume="0.275" data-track-index="31"></audio>
+      <audio id="au034" class="clip" src="assets/audio/sfx/cannon.wav" data-start="160.537" data-duration="8.5" data-volume="0.19" data-track-index="32"></audio>
+      <audio id="au035" class="clip" src="assets/audio/sfx/cannon.wav" data-start="161.465" data-duration="8.5" data-volume="0.275" data-track-index="33"></audio>
+      <audio id="au036" class="clip" src="assets/audio/sfx/cannon.wav" data-start="162.394" data-duration="8.5" data-volume="0.19" data-track-index="25"></audio>
+      <audio id="au037" class="clip" src="assets/audio/sfx/cannon.wav" data-start="163.322" data-duration="8.5" data-volume="0.275" data-track-index="23"></audio>
+      <audio id="au038" class="clip" src="assets/audio/sfx/cannon.wav" data-start="164.251" data-duration="8.5" data-volume="0.19" data-track-index="26"></audio>
+      <audio id="au039" class="clip" src="assets/audio/sfx/cannon.wav" data-start="165.179" data-duration="8.5" data-volume="0.275" data-track-index="27"></audio>
+      <audio id="au040" class="clip" src="assets/audio/sfx/crickets.wav" data-start="166.608" data-duration="18.0" data-volume="0.08" data-fade-in="1.5" data-fade-out="1.5" data-track-index="28"></audio>
+      <audio id="au041" class="clip" src="assets/audio/sfx/waves.wav" data-start="184.108" data-duration="10.7" data-volume="0.2" data-fade-in="1.5" data-fade-out="1.5" data-track-index="22"></audio>
+      <audio id="au042" class="clip" src="assets/audio/music/m_chopin.wav" data-start="197.608" data-duration="120" data-volume="0.522" data-fade-in="3.0" data-fade-out="6.0" data-track-index="21"></audio>
+      <audio id="au043" class="clip" src="assets/audio/vo/lin_00.wav" data-start="203.208" data-duration="8.832" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au044" class="clip" src="assets/audio/vo/lin_01.wav" data-start="212.84" data-duration="7.84" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au045" class="clip" src="assets/audio/vo/lin_02.wav" data-start="221.78" data-duration="6.453" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au046" class="clip" src="assets/audio/vo/lin_03.wav" data-start="229.333" data-duration="12.928" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au047" class="clip" src="assets/audio/vo/lin_04.wav" data-start="243.361" data-duration="9.648" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au048" class="clip" src="assets/audio/sfx/pen2.wav" data-start="203.208" data-duration="23.88" data-volume="0.05" data-fade-in="0.6" data-fade-out="1.0" data-track-index="22"></audio>
+      <audio id="au049" class="clip" src="assets/audio/sfx/pen2.wav" data-start="243.361" data-duration="9.348" data-media-start="6" data-volume="0.05" data-fade-in="0.4" data-fade-out="0.8" data-track-index="22"></audio>
+      <audio id="au050" class="clip" src="assets/audio/sfx/fire_city.wav" data-start="242.161" data-duration="3.0" data-volume="0.11" data-fade-in="1.5" data-fade-out="1.0" data-track-index="23"></audio>
+      <audio id="au051" class="clip" src="assets/audio/sfx/paper_burn.wav" data-start="254.309" data-duration="7.0" data-volume="0.275" data-fade-in="0.4" data-fade-out="1.5" data-track-index="22"></audio>
+      <audio id="au052" class="clip" src="assets/audio/sfx/fire_city.wav" data-start="255.309" data-duration="21.0" data-volume="0.225" data-fade-in="3.0" data-fade-out="2.5" data-track-index="23"></audio>
+      <audio id="au053" class="clip" src="assets/audio/sfx/gunshot_far.wav" data-start="257.309" data-duration="6.0" data-volume="0.125" data-track-index="24"></audio>
+      <audio id="au054" class="clip" src="assets/audio/sfx/gunshot_far.wav" data-start="258.409" data-duration="6.0" data-volume="0.175" data-track-index="25"></audio>
+      <audio id="au055" class="clip" src="assets/audio/sfx/gunshot_far.wav" data-start="259.109" data-duration="6.0" data-volume="0.125" data-track-index="26"></audio>
+      <audio id="au056" class="clip" src="assets/audio/sfx/gunshot_far.wav" data-start="260.609" data-duration="6.0" data-volume="0.175" data-track-index="27"></audio>
+      <audio id="au057" class="clip" src="assets/audio/sfx/gunshot_far.wav" data-start="261.709" data-duration="6.0" data-volume="0.125" data-track-index="22"></audio>
+      <audio id="au058" class="clip" src="assets/audio/sfx/gunshot_far.wav" data-start="263.309" data-duration="6.0" data-volume="0.175" data-track-index="28"></audio>
+      <audio id="au059" class="clip" src="assets/audio/sfx/rain.wav" data-start="288.309" data-duration="44.5" data-volume="0.2" data-fade-in="2.0" data-fade-out="1.0" data-track-index="22"></audio>
+      <audio id="au060" class="clip" src="assets/audio/sfx/rain.wav" data-start="331.809" data-duration="44.5" data-volume="0.2" data-fade-in="1.0" data-fade-out="1.0" data-track-index="23"></audio>
+      <audio id="au061" class="clip" src="assets/audio/sfx/rain.wav" data-start="375.309" data-duration="4.0" data-media-start="14.6" data-volume="0.2" data-fade-in="1.0" data-fade-out="1.5" data-track-index="22"></audio>
+      <audio id="au062" class="clip" src="assets/audio/sfx/rain_thunder.wav" data-start="289.309" data-duration="18.904" data-volume="0.15" data-fade-in="1.0" data-fade-out="2.0" data-track-index="24"></audio>
+      <audio id="au063" class="clip" src="assets/audio/sfx/cannon.wav" data-start="289.609" data-duration="8.5" data-volume="0.15" data-track-index="25"></audio>
+      <audio id="au064" class="clip" src="assets/audio/sfx/cannon.wav" data-start="290.709" data-duration="8.5" data-volume="0.225" data-track-index="26"></audio>
+      <audio id="au065" class="clip" src="assets/audio/sfx/cannon.wav" data-start="291.809" data-duration="8.5" data-volume="0.15" data-track-index="27"></audio>
+      <audio id="au066" class="clip" src="assets/audio/sfx/cannon.wav" data-start="292.909" data-duration="8.5" data-volume="0.225" data-track-index="28"></audio>
+      <audio id="au067" class="clip" src="assets/audio/sfx/cannon.wav" data-start="294.009" data-duration="8.5" data-volume="0.15" data-track-index="29"></audio>
+      <audio id="au068" class="clip" src="assets/audio/sfx/cannon.wav" data-start="295.109" data-duration="8.5" data-volume="0.225" data-track-index="30"></audio>
+      <audio id="au069" class="clip" src="assets/audio/sfx/cannon.wav" data-start="296.209" data-duration="8.5" data-volume="0.15" data-track-index="31"></audio>
+      <audio id="au070" class="clip" src="assets/audio/sfx/cannon.wav" data-start="297.309" data-duration="8.5" data-volume="0.225" data-track-index="32"></audio>
+      <audio id="au071" class="clip" src="assets/audio/sfx/cannon.wav" data-start="298.409" data-duration="8.5" data-volume="0.15" data-track-index="25"></audio>
+      <audio id="au072" class="clip" src="assets/audio/sfx/cannon.wav" data-start="299.509" data-duration="8.5" data-volume="0.225" data-track-index="26"></audio>
+      <audio id="au073" class="clip" src="assets/audio/sfx/cannon.wav" data-start="300.609" data-duration="8.5" data-volume="0.15" data-track-index="27"></audio>
+      <audio id="au074" class="clip" src="assets/audio/sfx/cannon.wav" data-start="301.709" data-duration="8.5" data-volume="0.225" data-track-index="28"></audio>
+      <audio id="au075" class="clip" src="assets/audio/sfx/gunshot_far.wav" data-start="297.109" data-duration="6.0" data-volume="0.15" data-track-index="33"></audio>
+      <audio id="au076" class="clip" src="assets/audio/sfx/gunshot_far.wav" data-start="298.009" data-duration="6.0" data-volume="0.15" data-track-index="34"></audio>
+      <audio id="au077" class="clip" src="assets/audio/sfx/gunshot_far.wav" data-start="298.909" data-duration="6.0" data-volume="0.15" data-track-index="35"></audio>
+      <audio id="au078" class="clip" src="assets/audio/sfx/gunshot_far.wav" data-start="299.809" data-duration="6.0" data-volume="0.15" data-track-index="36"></audio>
+      <audio id="au079" class="clip" src="assets/audio/sfx/gunshot_far.wav" data-start="300.709" data-duration="6.0" data-volume="0.15" data-track-index="37"></audio>
+      <audio id="au080" class="clip" src="assets/audio/vo/floch_00.wav" data-start="311.309" data-duration="1.806" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au081" class="clip" src="assets/audio/vo/floch_01.wav" data-start="313.805" data-duration="3.331" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au082" class="clip" src="assets/audio/vo/floch_02.wav" data-start="318.126" data-duration="3.657" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au083" class="clip" src="assets/audio/vo/floch_03.wav" data-start="323.373" data-duration="5.609" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au084" class="clip" src="assets/audio/vo/floch_04.wav" data-start="329.572" data-duration="4.355" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au085" class="clip" src="assets/audio/vo/floch_05.wav" data-start="335.517" data-duration="1.553" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au086" class="clip" src="assets/audio/vo/floch_06.wav" data-start="338.26" data-duration="3.726" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au087" class="clip" src="assets/audio/sfx/pen.wav" data-start="311.309" data-duration="19.958" data-volume="0.08" data-fade-in="0.4" data-fade-out="0.8" data-track-index="24"></audio>
+      <audio id="au088" class="clip" src="assets/audio/sfx/wind_cold.wav" data-start="354.376" data-duration="12.0" data-volume="0.125" data-fade-in="1.5" data-fade-out="1.5" data-track-index="24"></audio>
+      <audio id="au089" class="clip" src="assets/audio/sfx/volley.wav" data-start="362.256" data-duration="9.0" data-volume="0.425" data-track-index="25"></audio>
+      <audio id="au090" class="clip" src="assets/audio/sfx/wind_cold.wav" data-start="372.376" data-duration="32.0" data-volume="0.08" data-fade-in="1.5" data-fade-out="1.5" data-track-index="24"></audio>
+      <audio id="au091" class="clip" src="assets/audio/music/m_stille.wav" data-start="374.376" data-duration="31.0" data-volume="0.609" data-fade-in="3.0" data-fade-out="6.0" data-track-index="21"></audio>
+      <audio id="au092" class="clip" src="assets/audio/music/m_satie.wav" data-start="416.876" data-duration="104" data-volume="0.609" data-fade-in="3.0" data-fade-out="7.0" data-track-index="21"></audio>
+      <audio id="au093" class="clip" src="assets/audio/sfx/pen.wav" data-start="417.876" data-duration="10.5" data-volume="0.08" data-fade-in="0.4" data-fade-out="0.8" data-track-index="22"></audio>
+      <audio id="au094" class="clip" src="assets/audio/sfx/train_rattle.wav" data-start="430.376" data-duration="12.788" data-volume="0.16" data-fade-in="2.0" data-fade-out="1.0" data-track-index="22"></audio>
+      <audio id="au095" class="clip" src="assets/audio/sfx/train_rattle.wav" data-start="442.676" data-duration="12.788" data-volume="0.16" data-fade-in="1.0" data-fade-out="1.0" data-track-index="23"></audio>
+      <audio id="au096" class="clip" src="assets/audio/sfx/train_rattle.wav" data-start="454.976" data-duration="12.788" data-volume="0.16" data-fade-in="1.0" data-fade-out="1.0" data-track-index="22"></audio>
+      <audio id="au097" class="clip" src="assets/audio/sfx/train_rattle.wav" data-start="467.276" data-duration="12.788" data-volume="0.16" data-fade-in="1.0" data-fade-out="1.0" data-track-index="23"></audio>
+      <audio id="au098" class="clip" src="assets/audio/sfx/train_rattle.wav" data-start="479.576" data-duration="12.788" data-volume="0.16" data-fade-in="1.0" data-fade-out="1.0" data-track-index="22"></audio>
+      <audio id="au099" class="clip" src="assets/audio/sfx/train_rattle.wav" data-start="491.876" data-duration="12.788" data-volume="0.16" data-fade-in="1.0" data-fade-out="1.0" data-track-index="23"></audio>
+      <audio id="au100" class="clip" src="assets/audio/sfx/train_rattle.wav" data-start="504.176" data-duration="3.2" data-media-start="0.8" data-volume="0.16" data-fade-in="1.0" data-fade-out="1.5" data-track-index="22"></audio>
+      <audio id="au101" class="clip" src="assets/audio/sfx/train_chuff.wav" data-start="431.776" data-duration="10.5" data-volume="0.25" data-fade-in="1.0" data-fade-out="1.5" data-track-index="24"></audio>
+      <audio id="au102" class="clip" src="assets/audio/sfx/whistle.wav" data-start="435.576" data-duration="6.2" data-volume="0.175" data-track-index="25"></audio>
+      <audio id="au103" class="clip" src="assets/audio/sfx/wind_warm.wav" data-start="431.376" data-duration="14.0" data-volume="0.11" data-fade-in="1.5" data-fade-out="1.5" data-track-index="26"></audio>
+      <audio id="au104" class="clip" src="assets/audio/vo/zhao_00.wav" data-start="447.776" data-duration="0.907" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au105" class="clip" src="assets/audio/vo/zhao_01.wav" data-start="449.673" data-duration="6.129" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au106" class="clip" src="assets/audio/vo/zhao_02.wav" data-start="456.792" data-duration="7.894" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au107" class="clip" src="assets/audio/vo/zhao_03.wav" data-start="466.276" data-duration="4.582" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au108" class="clip" src="assets/audio/vo/zhao_04.wav" data-start="472.048" data-duration="6.411" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au109" class="clip" src="assets/audio/vo/zhao_05.wav" data-start="479.649" data-duration="8.102" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au110" class="clip" src="assets/audio/vo/zhao_06.wav" data-start="488.941" data-duration="5.956" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au111" class="clip" src="assets/audio/sfx/pen2.wav" data-start="447.776" data-duration="15.88" data-media-start="8" data-volume="0.05" data-fade-in="0.5" data-fade-out="0.8" data-track-index="24"></audio>
+      <audio id="au112" class="clip" src="assets/audio/sfx/pen.wav" data-start="505.287" data-duration="6.0" data-media-start="6" data-volume="0.11" data-fade-in="0.2" data-fade-out="0.6" data-track-index="23"></audio>
+      <audio id="au113" class="clip" src="assets/audio/sfx/wind_warm.wav" data-start="517.287" data-duration="14.0" data-volume="0.06" data-fade-in="1.5" data-fade-out="1.5" data-track-index="22"></audio>
+      <audio id="au114" class="clip" src="assets/audio/music/m_largo.wav" data-start="518.287" data-duration="96" data-media-start="24.0" data-volume="0.725" data-fade-in="4.0" data-fade-out="6.0" data-track-index="21"></audio>
+      <audio id="au115" class="clip" src="assets/audio/vo/zuo_00.wav" data-start="530.287" data-duration="11.874" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au116" class="clip" src="assets/audio/vo/zuo_01.wav" data-start="543.831" data-duration="11.543" data-volume="0.85" data-track-index="20"></audio>
+      <audio id="au117" class="clip" src="assets/audio/sfx/wind_mountain.wav" data-start="566.144" data-duration="12.5" data-volume="0.15" data-fade-in="1.5" data-fade-out="1.5" data-track-index="22"></audio>
+      <audio id="au118" class="clip" src="assets/audio/sfx/wind_mountain.wav" data-start="577.644" data-duration="13.0" data-volume="0.15" data-fade-in="1.5" data-fade-out="1.5" data-track-index="23"></audio>
+      <audio id="au119" class="clip" src="assets/audio/sfx/aircraft.wav" data-start="579.144" data-duration="12.0" data-volume="0.275" data-track-index="22"></audio>
+      <audio id="au120" class="clip" src="assets/audio/sfx/aircraft.wav" data-start="582.144" data-duration="12.0" data-volume="0.2" data-track-index="24"></audio>
+      <audio id="au121" class="clip" src="assets/audio/sfx/explosion.wav" data-start="579.194" data-duration="9.5" data-volume="0.21" data-track-index="25"></audio>
+      <audio id="au122" class="clip" src="assets/audio/sfx/explosion.wav" data-start="580.861" data-duration="9.5" data-volume="0.275" data-track-index="26"></audio>
+      <audio id="au123" class="clip" src="assets/audio/sfx/explosion.wav" data-start="582.527" data-duration="9.5" data-volume="0.21" data-track-index="27"></audio>
+      <audio id="au124" class="clip" src="assets/audio/sfx/explosion.wav" data-start="584.194" data-duration="9.5" data-volume="0.275" data-track-index="28"></audio>
+      <audio id="au125" class="clip" src="assets/audio/sfx/explosion.wav" data-start="585.861" data-duration="9.5" data-volume="0.21" data-track-index="29"></audio>
+      <audio id="au126" class="clip" src="assets/audio/sfx/explosion.wav" data-start="587.527" data-duration="9.5" data-volume="0.275" data-track-index="30"></audio>
+      <audio id="au127" class="clip" src="assets/audio/sfx/wind_warm.wav" data-start="590.644" data-duration="24.0" data-volume="0.05" data-fade-in="1.5" data-fade-out="1.5" data-track-index="25"></audio>
+      <audio id="au128" class="clip" src="assets/audio/sfx/wind_cold.wav" data-start="614.644" data-duration="20.0" data-volume="0.1" data-fade-in="1.5" data-fade-out="1.5" data-track-index="22"></audio>
+      <audio id="au129" class="clip" src="assets/audio/music/m_mahler.wav" data-start="615.144" data-duration="110.66" data-media-start="502.0" data-volume="0.899" data-fade-in="4.0" data-fade-out="0.12" data-track-index="21"></audio>
+      <audio id="au130" class="clip" src="assets/audio/vo/ballou_04.wav" data-start="625.044" data-duration="2.7" data-media-start="2.1" data-volume="0.527" data-fade-in="0.3" data-fade-out="0.8" data-track-index="20"></audio>
+      <audio id="au131" class="clip" src="assets/audio/vo/lin_02.wav" data-start="626.644" data-duration="3.4" data-volume="0.527" data-fade-in="0.3" data-fade-out="0.8" data-track-index="20"></audio>
+      <audio id="au132" class="clip" src="assets/audio/vo/floch_06.wav" data-start="628.244" data-duration="3.5" data-volume="0.527" data-fade-in="0.3" data-fade-out="0.8" data-track-index="20"></audio>
+      <audio id="au133" class="clip" src="assets/audio/vo/zhao_05.wav" data-start="629.844" data-duration="2.6" data-volume="0.527" data-fade-in="0.3" data-fade-out="0.8" data-track-index="20"></audio>
+      <audio id="au134" class="clip" src="assets/audio/vo/zuo_00.wav" data-start="631.244" data-duration="2.8" data-media-start="8.944" data-volume="0.527" data-fade-in="0.3" data-fade-out="0.8" data-track-index="20"></audio>
+      <audio id="au135" class="clip" src="assets/audio/sfx/pen.wav" data-start="646.644" data-duration="1.6" data-media-start="4.0" data-volume="0.09" data-fade-in="0.1" data-fade-out="0.4" data-track-index="22"></audio>
+      <audio id="au136" class="clip" src="assets/audio/sfx/pen.wav" data-start="649.844" data-duration="1.6" data-media-start="6.5" data-volume="0.09" data-fade-in="0.1" data-fade-out="0.4" data-track-index="22"></audio>
+      <audio id="au137" class="clip" src="assets/audio/sfx/pen.wav" data-start="653.044" data-duration="2.2" data-media-start="9.0" data-volume="0.09" data-fade-in="0.1" data-fade-out="0.4" data-track-index="22"></audio>
+      <audio id="au138" class="clip" src="assets/audio/sfx/pen.wav" data-start="650.094" data-duration="1.8" data-media-start="1.0" data-volume="0.035" data-fade-in="0.3" data-fade-out="0.6" data-track-index="23"></audio>
+      <audio id="au139" class="clip" src="assets/audio/sfx/pen2.wav" data-start="650.404" data-duration="1.8" data-media-start="2.7" data-volume="0.035" data-fade-in="0.3" data-fade-out="0.6" data-track-index="24"></audio>
+      <audio id="au140" class="clip" src="assets/audio/sfx/pen.wav" data-start="653.294" data-duration="1.8" data-media-start="1.0" data-volume="0.043" data-fade-in="0.3" data-fade-out="0.6" data-track-index="23"></audio>
+      <audio id="au141" class="clip" src="assets/audio/sfx/pen2.wav" data-start="653.604" data-duration="1.8" data-media-start="2.7" data-volume="0.043" data-fade-in="0.3" data-fade-out="0.6" data-track-index="24"></audio>
+      <audio id="au142" class="clip" src="assets/audio/sfx/pen.wav" data-start="653.914" data-duration="1.8" data-media-start="4.4" data-volume="0.043" data-fade-in="0.3" data-fade-out="0.6" data-track-index="25"></audio>
+      <audio id="au143" class="clip" src="assets/audio/sfx/pen2.wav" data-start="654.224" data-duration="1.8" data-media-start="6.1" data-volume="0.043" data-fade-in="0.3" data-fade-out="0.6" data-track-index="26"></audio>
+      <audio id="au144" class="clip" src="assets/audio/sfx/candle_room.wav" data-start="645.644" data-duration="12.6" data-volume="0.05" data-fade-in="1.5" data-fade-out="1.5" data-track-index="27"></audio>
+      <audio id="au145" class="clip" src="assets/audio/sfx/wind_mountain.wav" data-start="658.644" data-duration="37.0" data-volume="0.11" data-fade-in="1.5" data-fade-out="1.5" data-track-index="22"></audio>
+      <audio id="au146" class="clip" src="assets/audio/sfx/wind_cold.wav" data-start="702.644" data-duration="35.26" data-volume="0.08" data-fade-in="1.5" data-fade-out="1.5" data-track-index="22"></audio>
+      <audio id="au147" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="712.244" data-duration="0.4" data-volume="0.15" data-track-index="23"></audio>
+      <audio id="au148" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="712.664" data-duration="0.4" data-volume="0.15" data-track-index="23"></audio>
+      <audio id="au149" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="713.084" data-duration="0.4" data-volume="0.15" data-track-index="23"></audio>
+      <audio id="au150" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="715.104" data-duration="0.4" data-volume="0.11" data-track-index="23"></audio>
+      <audio id="au151" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="715.324" data-duration="0.4" data-volume="0.11" data-track-index="24"></audio>
+      <audio id="au152" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="715.544" data-duration="0.4" data-volume="0.11" data-track-index="23"></audio>
+      <audio id="au153" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="717.164" data-duration="0.4" data-volume="0.15" data-track-index="23"></audio>
+      <audio id="au154" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="717.624" data-duration="0.4" data-volume="0.15" data-track-index="23"></audio>
+      <audio id="au155" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="718.084" data-duration="0.4" data-volume="0.15" data-track-index="23"></audio>
+      <audio id="au156" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="718.544" data-duration="0.4" data-volume="0.15" data-track-index="23"></audio>
+      <audio id="au157" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="719.004" data-duration="0.4" data-volume="0.15" data-track-index="23"></audio>
+      <audio id="au158" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="719.464" data-duration="0.4" data-volume="0.15" data-track-index="23"></audio>
+      <audio id="au159" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="719.924" data-duration="0.4" data-volume="0.15" data-track-index="23"></audio>
+      <audio id="au160" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="720.384" data-duration="0.4" data-volume="0.15" data-track-index="23"></audio>
+      <audio id="au161" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="720.844" data-duration="0.4" data-volume="0.15" data-track-index="23"></audio>
+      <audio id="au162" class="clip" src="assets/audio/sfx/key_press.mp3" data-start="722.184" data-duration="0.4" data-volume="0.2" data-track-index="23"></audio>
+      <audio id="au163" class="clip" src="assets/audio/sfx/explosion.wav" data-start="705.644" data-duration="9.5" data-volume="0.09" data-track-index="25"></audio>
+      <audio id="au164" class="clip" src="assets/audio/sfx/explosion.wav" data-start="711.944" data-duration="9.5" data-volume="0.09" data-track-index="26"></audio>
+      <audio id="au165" class="clip" src="assets/audio/sfx/explosion.wav" data-start="718.244" data-duration="9.5" data-volume="0.09" data-track-index="24"></audio>
+      <audio id="au166" class="clip" src="assets/audio/sfx/explosion.wav" data-start="724.544" data-duration="9.5" data-volume="0.09" data-track-index="23"></audio>
+      <audio id="au167" class="clip" src="assets/audio/music/m_largo.wav" data-start="738.904" data-duration="36.0" data-media-start="628.0" data-volume="1.667" data-fade-in="5.0" data-fade-out="6.0" data-track-index="21"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+    </script>
+    <script type="module">
+      import { World } from "./lib/world.js";
+      import { loadAssets } from "./lib/kit.js";
+      import { BUILDERS } from "./lib/catalog.js";
+      import TL from "./lib/timeline_data.js";
+
+      const shots = TL.shots.map((s) => Object.assign({}, s, { build: BUILDERS[s.builder](s.p || {}) }));
+      let world = null;
+      let pending = window.__hfThreeTime || 0;
+      const draw = (t) => {
+        if (world) world.render(t);
+        else pending = t;
+      };
+      window.addEventListener("hf-seek", (e) => draw(e.detail.time));
+      window.__hf = window.__hf || {};
+      window.__hf.buildReady = window.__hf.buildReady || {};
+      window.__hf.buildReady.world = loadAssets().then(() => {
+        world = new World(document.getElementById("world"), shots);
+        world.render(window.__hfThreeTime ?? pending);
+      });
+    </script>
+  </body>
+</html>

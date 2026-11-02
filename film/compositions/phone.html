@@ -1,0 +1,95 @@
+<template>
+  <style>
+      @font-face { font-family: "Noto Serif SC"; src: url("assets/fonts/NotoSerifSC.woff2") format("woff2"); font-weight: 200 900; }
+      @font-face { font-family: "Letters Kai"; src: url("assets/fonts/LettersKai.woff2") format("woff2"); }
+      @font-face { font-family: "Ma Shan Zheng"; src: url("assets/fonts/MaShanZheng.woff2") format("woff2"); }
+      @font-face { font-family: "Zhi Mang Xing"; src: url("assets/fonts/ZhiMangXing.woff2") format("woff2"); }
+      @font-face { font-family: "Long Cang"; src: url("assets/fonts/LongCang.woff2") format("woff2"); }
+      @font-face { font-family: "Yozai"; src: url("assets/fonts/Yozai.woff2") format("woff2"); }
+      @font-face { font-family: "Pinyon Script"; src: url("assets/fonts/PinyonScript.woff2") format("woff2"); }
+      @font-face { font-family: "Letters Spencer"; src: url("assets/fonts/LettersSpencer.woff2") format("woff2"); }
+      @font-face { font-family: "La Belle Aurore"; src: url("assets/fonts/LaBelleAurore.woff2") format("woff2"); }
+      @font-face { font-family: "Cedarville Cursive"; src: url("assets/fonts/CedarvilleCursive.woff2") format("woff2"); }
+      @font-face { font-family: "EB Garamond"; src: url("assets/fonts/EBGaramond.woff2") format("woff2"); font-weight: 400 800; }
+      @font-face { font-family: "EB Garamond"; src: url("assets/fonts/EBGaramondItalic.woff2") format("woff2"); font-style: italic; font-weight: 400 800; }
+      #root { position: absolute; inset: 0; }
+      #ph-wrap { position: absolute; left: 700px; top: 150px; width: 430px; height: 780px; opacity: 0; }
+      #ph-body { position: absolute; inset: 0; border-radius: 48px; background: #0b0c0f; box-shadow: 0 0 0 3px #1c1d22, 0 30px 90px rgba(0,0,0,.85); overflow: hidden; }
+      #ph-screen { position: absolute; left: 14px; top: 14px; right: 14px; bottom: 14px; border-radius: 36px; background: #15171c; overflow: hidden; }
+      #ph-bar { position: absolute; left: 0; right: 0; top: 0; height: 84px; background: #1c1f25; border-bottom: 1px solid #2a2d34; font-family: "Noto Serif SC", serif; color: #d9d4ca; font-size: 23px; text-align: center; line-height: 104px; letter-spacing: .12em; }
+      #ph-sig { position: absolute; left: 28px; top: 14px; height: 16px; display: flex; align-items: flex-end; gap: 3px; }
+      #ph-sig i { display: block; width: 4px; border-radius: 1px; background: #4a4d54; }
+      #ph-sig i:nth-child(1) { height: 5px; background: #b9b4aa; } #ph-sig i:nth-child(2) { height: 8px; } #ph-sig i:nth-child(3) { height: 11px; } #ph-sig i:nth-child(4) { height: 14px; }
+      #ph-bat { position: absolute; right: 26px; top: 16px; width: 30px; height: 13px; border: 2px solid #9a958c; border-radius: 3px; }
+      #ph-bat i { position: absolute; left: 2px; top: 2px; bottom: 2px; width: 3px; background: #d23b2e; }
+      #ph-list { position: absolute; left: 0; right: 0; top: 96px; bottom: 100px; padding: 0 20px; }
+      .ph-ts { text-align: center; font: 15px "Noto Serif SC", serif; color: #6c6f76; margin: 16px 0 8px; opacity: 0; }
+      .ph-mom { max-width: 270px; padding: 12px 16px; border-radius: 18px 18px 18px 4px; background: #2a2d34; color: #e6e2da; font: 22px "Noto Serif SC", serif; letter-spacing: .03em; opacity: 0; }
+      #ph-bubble { position: absolute; right: 22px; bottom: 120px; max-width: 290px; padding: 13px 17px; border-radius: 18px 18px 4px 18px; background: #2f6b4a; color: #f1efe8; font: 23px "Noto Serif SC", serif; letter-spacing: .04em; opacity: 0; }
+      #ph-spin { position: absolute; right: 336px; bottom: 132px; width: 24px; height: 24px; border-radius: 50%; border: 3px solid #6b7078; border-top-color: transparent; opacity: 0; }
+      #ph-fail { position: absolute; right: 334px; bottom: 130px; width: 30px; height: 30px; border-radius: 50%; background: #d23b2e; color: #fff; font: 700 22px/30px "EB Garamond", serif; text-align: center; opacity: 0; }
+      #ph-failtx { position: absolute; right: 24px; bottom: 96px; font: 15px "Noto Serif SC", serif; color: #d2564a; opacity: 0; }
+      #ph-input { position: absolute; left: 18px; right: 18px; bottom: 26px; height: 60px; border-radius: 30px; background: #22252c; }
+      .ph-st { position: absolute; left: 24px; top: 0; line-height: 60px; color: #e8e4dc; font: 23px "Noto Serif SC", serif; letter-spacing: .04em; opacity: 0; white-space: nowrap; }
+      .caret { display: inline-block; width: 2px; height: 26px; background: #8ab89a; margin-left: 3px; vertical-align: -5px; }
+      #ph-toast { position: absolute; left: 40px; right: 40px; top: 120px; padding: 14px; border-radius: 14px; background: rgba(40,40,46,.96); color: #e8e4dc; font: 19px "Noto Serif SC", serif; text-align: center; opacity: 0; }
+      #ph-off { position: absolute; inset: 0; background: #020203; opacity: 0; }
+      #ph-refl { position: absolute; right: 60px; bottom: 150px; width: 70px; height: 110px; border-radius: 50%; background: radial-gradient(ellipse at center, rgba(255,190,110,.55), rgba(255,150,60,.12) 45%, rgba(0,0,0,0) 72%); opacity: 0; }
+      #ph-sheen { position: absolute; inset: 0; background: linear-gradient(125deg, rgba(255,255,255,.05) 0%, rgba(255,255,255,0) 35%); opacity: 0; }
+      #ph-crack { position: absolute; inset: 0; opacity: .5; }
+  </style>
+  <div id="root" data-composition-id="phone" data-width="1920" data-height="1080">
+    <div id="ph-clip" class="clip" data-start="0" data-duration="35.26" data-track-index="0"><div id="ph-wrap"><div id="ph-body"><div id="ph-screen"><div id="ph-bar">妈妈</div><div id="ph-sig"><i></i><i></i><i></i><i></i></div><div id="ph-bat"><i></i></div><div id="ph-list"><div class="ph-ts" id="ph-ts0">3月2日 21:14</div><div class="ph-mom" id="ph-m0">吃饭了吗？</div><div class="ph-ts" id="ph-ts1">3月4日 23:40</div><div class="ph-mom" id="ph-m1">怎么一直不回消息</div><div class="ph-ts" id="ph-ts2">3月7日 06:02</div><div class="ph-mom" id="ph-m2">妈妈每天都在看新闻</div><div class="ph-ts" id="ph-ts3">3月9日 22:51</div><div class="ph-mom" id="ph-m3">不用多说，回一个字就好</div></div><div id="ph-bubble">妈，我很好，勿念。</div><div id="ph-spin"></div><div id="ph-fail">!</div><div id="ph-failtx">发送失败</div><div id="ph-input"><span class="ph-st" id="ph-s0">妈<i class="caret"></i></span><span class="ph-st" id="ph-s1">妈，<i class="caret"></i></span><span class="ph-st" id="ph-s2">妈，我<i class="caret"></i></span><span class="ph-st" id="ph-s3">妈，<i class="caret"></i></span><span class="ph-st" id="ph-s4">妈<i class="caret"></i></span><span class="ph-st" id="ph-s5"><i class="caret"></i></span><span class="ph-st" id="ph-s6">妈<i class="caret"></i></span><span class="ph-st" id="ph-s7">妈，<i class="caret"></i></span><span class="ph-st" id="ph-s8">妈，我<i class="caret"></i></span><span class="ph-st" id="ph-s9">妈，我很<i class="caret"></i></span><span class="ph-st" id="ph-s10">妈，我很好<i class="caret"></i></span><span class="ph-st" id="ph-s11">妈，我很好，<i class="caret"></i></span><span class="ph-st" id="ph-s12">妈，我很好，勿<i class="caret"></i></span><span class="ph-st" id="ph-s13">妈，我很好，勿念<i class="caret"></i></span><span class="ph-st" id="ph-s14">妈，我很好，勿念。<i class="caret"></i></span></div><div id="ph-toast">电量剩余 1%</div><div id="ph-off"></div><div id="ph-refl"></div><div id="ph-sheen"></div><svg id="ph-crack" viewBox="0 0 402 752"><g fill="none" stroke="#cfd6e0" stroke-width="1.2"><path d="M330 60 L276 168 L296 240 L232 344 L250 430 L198 548"/><path d="M276 168 L210 200 L132 180"/><path d="M296 240 L362 312 L398 300"/><path d="M232 344 L154 368 L66 346 L10 380"/><path d="M250 430 L318 494 L330 590"/><path d="M198 548 L130 632 L142 740"/></g></svg></div></div></div></div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#ph-wrap", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power1.out" }, 0.4);
+      tl.fromTo(["#ph-ts0", "#ph-m0"], { opacity: 0 }, { opacity: 1, duration: 0.5 }, 1.6);
+      tl.fromTo(["#ph-ts1", "#ph-m1"], { opacity: 0 }, { opacity: 1, duration: 0.5 }, 3.1);
+      tl.fromTo(["#ph-ts2", "#ph-m2"], { opacity: 0 }, { opacity: 1, duration: 0.5 }, 4.6);
+      tl.fromTo(["#ph-ts3", "#ph-m3"], { opacity: 0 }, { opacity: 1, duration: 0.5 }, 6.1);
+      tl.fromTo("#ph-s0", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 9.6);
+      tl.to("#ph-s0", { opacity: 0, duration: 0.01 }, 10.02);
+      tl.fromTo("#ph-s1", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 10.02);
+      tl.to("#ph-s1", { opacity: 0, duration: 0.01 }, 10.44);
+      tl.fromTo("#ph-s2", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 10.44);
+      tl.to("#ph-s2", { opacity: 0, duration: 0.01 }, 12.46);
+      tl.fromTo("#ph-s3", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 12.46);
+      tl.to("#ph-s3", { opacity: 0, duration: 0.01 }, 12.68);
+      tl.fromTo("#ph-s4", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 12.68);
+      tl.to("#ph-s4", { opacity: 0, duration: 0.01 }, 12.9);
+      tl.fromTo("#ph-s5", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 12.9);
+      tl.to("#ph-s5", { opacity: 0, duration: 0.01 }, 14.52);
+      tl.fromTo("#ph-s6", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 14.52);
+      tl.to("#ph-s6", { opacity: 0, duration: 0.01 }, 14.98);
+      tl.fromTo("#ph-s7", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 14.98);
+      tl.to("#ph-s7", { opacity: 0, duration: 0.01 }, 15.44);
+      tl.fromTo("#ph-s8", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 15.44);
+      tl.to("#ph-s8", { opacity: 0, duration: 0.01 }, 15.9);
+      tl.fromTo("#ph-s9", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 15.9);
+      tl.to("#ph-s9", { opacity: 0, duration: 0.01 }, 16.36);
+      tl.fromTo("#ph-s10", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 16.36);
+      tl.to("#ph-s10", { opacity: 0, duration: 0.01 }, 16.82);
+      tl.fromTo("#ph-s11", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 16.82);
+      tl.to("#ph-s11", { opacity: 0, duration: 0.01 }, 17.28);
+      tl.fromTo("#ph-s12", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 17.28);
+      tl.to("#ph-s12", { opacity: 0, duration: 0.01 }, 17.74);
+      tl.fromTo("#ph-s13", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 17.74);
+      tl.to("#ph-s13", { opacity: 0, duration: 0.01 }, 18.2);
+      tl.fromTo("#ph-s14", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 18.2);
+      tl.to("#ph-s14", { opacity: 0, duration: 0.01 }, 19.56);
+      tl.fromTo("#ph-bubble", { opacity: 0 }, { opacity: 1, duration: 0.25 }, 19.56);
+      tl.fromTo("#ph-spin", { opacity: 0, rotation: 0 }, { opacity: 1, rotation: 1080, duration: 3.5, ease: "none" }, 19.66);
+      tl.to("#ph-spin", { opacity: 0, duration: 0.01 }, 23.16);
+      tl.fromTo(["#ph-fail", "#ph-failtx"], { opacity: 0 }, { opacity: 1, duration: 0.01 }, 23.16);
+      tl.fromTo("#ph-toast", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 25.36);
+      tl.fromTo("#ph-off", { opacity: 0 }, { opacity: 1, duration: 0.18 }, 27.76);
+      tl.to("#ph-off", { opacity: 0.7, duration: 0.06 }, 27.98);
+      tl.to("#ph-off", { opacity: 1, duration: 0.1 }, 28.06);
+      tl.fromTo(["#ph-refl", "#ph-sheen"], { opacity: 0 }, { opacity: 1, duration: 2.5 }, 28.56);
+      tl.to("#ph-wrap", { opacity: 0, duration: 2.0, ease: "power1.in" }, 33.06);
+      window.__timelines["phone"] = tl;
+    })();
+  </script>
+</template>

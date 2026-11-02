@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face { font-family: "Noto Serif SC"; src: url("assets/fonts/src/NotoSerifSC[wght].ttf"); }
+      @font-face { font-family: "Ma Shan Zheng"; src: url("assets/fonts/src/MaShanZheng-Regular.ttf"); }
+      @font-face { font-family: "Zhi Mang Xing"; src: url("assets/fonts/src/ZhiMangXing-Regular.ttf"); }
+      @font-face { font-family: "Long Cang"; src: url("assets/fonts/src/LongCang-Regular.ttf"); }
+      @font-face { font-family: "Yozai"; src: url("assets/fonts/src/Yozai-Regular.ttf"); }
+      @font-face { font-family: "Letters Kai"; src: url("assets/fonts/src/LXGWWenKai-Regular.ttf"); }
+      @font-face { font-family: "Pinyon Script"; src: url("assets/fonts/src/PinyonScript-Regular.ttf"); }
+      @font-face { font-family: "Cedarville Cursive"; src: url("assets/fonts/src/Cedarville-Cursive.ttf"); }
+      @font-face { font-family: "Letters Spencer"; src: url("assets/fonts/src/MrsSaintDelafield-Regular.ttf"); }
+      @font-face { font-family: "La Belle Aurore"; src: url("assets/fonts/src/LaBelleAurore.ttf"); }
+      @font-face { font-family: "EB Garamond"; src: url("assets/fonts/src/EBGaramond[wght].ttf"); }
+      html, body { margin: 0; background: #111; }
+      #wrap { position: relative; width: 1920px; height: 1080px; transform-origin: 0 0; }
+      canvas { display: block; width: 1920px; height: 1080px; }
+      .bar { position: absolute; left: 0; right: 0; height: 132px; background: #000; }
+      #info { position: absolute; left: 8px; top: 8px; color: #8f8; font: 14px monospace; z-index: 5; }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <canvas id="world" width="1920" height="1080"></canvas>
+      <div class="bar" style="top: 0"></div>
+      <div class="bar" style="bottom: 0"></div>
+      <div id="info"></div>
+    </div>
+    <script type="module">
+      import { World } from "./lib/world.js";
+      import { loadAssets } from "./lib/kit.js";
+      import { SHOTS } from "./lib/catalog.js";
+      const qs = new URLSearchParams(location.search);
+      const scale = +(qs.get("scale") || 0.5);
+      document.getElementById("wrap").style.transform = `scale(${scale})`;
+      await loadAssets();
+      const id = qs.get("shot");
+      const def = SHOTS[id];
+      const dur = +(qs.get("dur") || def.dur || 10);
+      const shot = Object.assign({ id, start: 0, dur }, def, { dur });
+      const world = new World(document.getElementById("world"), [shot]);
+      window.renderAt = (t) => {
+        world.render(t);
+        document.getElementById("info").textContent = `${id} t=${t.toFixed(2)}`;
+      };
+      window.renderAt(+(qs.get("t") || 1));
+      window.__ready = true;
+    </script>
+  </body>
+</html>

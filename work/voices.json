@@ -1,0 +1,143 @@
+{
+ "dufu": {
+  "lang": "Chinese",
+  "instruct": "男声。一位六十岁左右的老年男子，声音苍老、低沉、沙哑，带着国破家亡的悲怆，在战火焚毁的长安城外吟诵自己的诗。一字一顿，句尾拖长、带着叹息；读到“感时花溅泪”时声音哽咽，读到“家书抵万金”时低沉而颤抖，像在强忍眼泪。",
+  "ref_text": "国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。",
+  "seeds": [
+   7,
+   11,
+   23
+  ],
+  "lines": [
+   "国破山河在，城春草木深。",
+   "感时花溅泪，恨别鸟惊心。",
+   "烽火连三月，家书抵万金。"
+  ],
+  "ref_file": "ref_dufu_7.wav",
+  "gender": "m",
+  "passage_seeds": [
+   3,
+   7,
+   19,
+   41,
+   57
+  ]
+ },
+ "ballou": {
+  "lang": "English",
+  "instruct": "An American man in his early thirties with a warm, low baritone voice. He speaks quietly and slowly, as if reading his own farewell letter by lantern light late at night and trying not to wake anyone. Tender and steady, with restrained emotion and a faint tremble on the most loving words.",
+  "ref_text": "Sarah, my love for you is deathless. It seems to bind me with mighty cables that nothing but Omnipotence could break.",
+  "seeds": [
+   7,
+   11,
+   23
+  ],
+  "lines": [
+   "My very dear Sarah,",
+   "The indications are very strong that we shall move in a few days — perhaps tomorrow.",
+   "Lest I should not be able to write you again, I feel impelled to write lines that may fall under your eye when I shall be no more.",
+   "Sarah, my love for you is deathless. It seems to bind me with mighty cables that nothing but Omnipotence could break.",
+   "If I do not return, my dear Sarah, never forget how much I love you.",
+   "And if there be a soft breeze upon your cheek, it shall be my breath.",
+   "Sarah, do not mourn me dead. Think I am gone, and wait for thee, for we shall meet again."
+  ],
+  "ref_file": "ref_ballou_11.wav"
+ },
+ "lin": {
+  "lang": "Chinese",
+  "instruct": "男声。二十四岁的青年读书人，嗓音清朗温润、偏低，深夜在灯下给怀孕的爱妻写诀别信。开头“意映卿卿如晤”温柔地低声呼唤，“吾今以此书与汝永别矣”时声音发颤；“汝看此书时，吾已成为阴间一鬼”压抑而悲凉；“吾至爱汝”深情而坚定；回忆“窗外疏梅筛月影”时变得轻柔，带着怀念的哽咽；最后“吾今不能见汝矣”几乎说不下去，强忍泪水。",
+  "ref_text": "吾至爱汝，即此爱汝一念，使吾勇于就死也。",
+  "seeds": [
+   5,
+   13,
+   31
+  ],
+  "lines": [
+   "意映卿卿如晤：吾今以此书与汝永别矣！",
+   "吾作此书时，尚是世中一人；汝看此书时，吾已成为阴间一鬼。",
+   "吾至爱汝，即此爱汝一念，使吾勇于就死也。",
+   "窗外疏梅筛月影，依稀掩映；吾与汝并肩携手，低低切切，何事不语？何情不诉？",
+   "纸短情长，所未尽者，尚有万千。吾今不能见汝矣！"
+  ],
+  "ref_file": "ref_lin_31.wav",
+  "gender": "m",
+  "passage_seeds": [
+   3,
+   7,
+   19,
+   41,
+   57
+  ]
+ },
+ "floch": {
+  "lang": "French",
+  "instruct": "A French man in his early thirties with a low, hoarse voice. Native French. He speaks quietly and fast, as if time is running out, his throat tight with emotion: desperate yet dignified, on the night before his execution.",
+  "ref_text": "Je te fais mes derniers adieux à la hâte, les larmes aux yeux, l'âme en peine.",
+  "seeds": [
+   7,
+   11,
+   23
+  ],
+  "lines": [
+   "Ma bien chère Lucie,",
+   "Quand cette lettre te parviendra, je serai mort fusillé.",
+   "Je ne suis pas plus coupable que les autres, mais il faut un exemple.",
+   "Je te fais mes derniers adieux à la hâte, les larmes aux yeux, l'âme en peine.",
+   "Je te demande à genoux humblement pardon pour toute la peine que je vais te causer.",
+   "Je meurs innocent.",
+   "Ma dernière pensée, à toi, jusqu'au bout."
+  ],
+  "ref_file": "ref_floch_7.wav"
+ },
+ "zhao": {
+  "lang": "Chinese",
+  "instruct": "女声。三十岁的年轻母亲，重伤后身体虚弱，在押赴刑场的火车上给七岁的儿子写遗书。开头“宁儿”轻柔慈爱；说到“永久没有再见的机会了”声音哽咽；“希望你，宁儿啊！赶快成人”情绪涌上来，带着哭腔却努力坚强；“我最亲爱的孩子啊”泪中带着温柔；最后一句平静而坚定。",
+  "ref_text": "希望你，宁儿啊！赶快成人，来安慰你地下的母亲！",
+  "seeds": [
+   7,
+   11,
+   23
+  ],
+  "lines": [
+   "宁儿：",
+   "母亲对于你没有能尽到教育的责任，实在是遗憾的事情。",
+   "母亲因为坚决地做了反满抗日的斗争，今天已经到了牺牲的前夕了。",
+   "母亲和你在生前是永久没有再见的机会了。",
+   "希望你，宁儿啊！赶快成人，来安慰你地下的母亲！",
+   "我最亲爱的孩子啊！母亲不用千言万语来教育你，就用实行来教育你。",
+   "在你长大成人之后，希望不要忘记你的母亲是为国而牺牲的！"
+  ],
+  "ref_file": "ref_zhao_7.wav",
+  "gender": "f",
+  "passage_seeds": [
+   3,
+   7,
+   19,
+   41,
+   57
+  ]
+ },
+ "zuo": {
+  "lang": "Chinese",
+  "instruct": "男声。三十七岁的男军人，嗓音温和醇厚，在窑洞的油灯下给远方的妻子写家常信，满是思念。“志兰！亲爱的”带着笑意轻声呼唤，“别时容易见时难”有一丝感慨，“念念、念念”越念越轻、越深情；说到“特别是北北非常调皮”时忍不住宠溺地笑出来。",
+  "ref_text": "有时总仿佛有你及北北，与我在一块玩着、谈着，特别是北北非常调皮。",
+  "seeds": [
+   7,
+   11,
+   23
+  ],
+  "lines": [
+   "志兰！亲爱的，别时容易见时难，分离廿一个月了，何日相聚，念念、念念！",
+   "有时总仿佛有你及北北，与我在一块玩着、谈着，特别是北北非常调皮……"
+  ],
+  "ref_file": "ref_zuo_7.wav",
+  "gender": "m",
+  "passage_seeds": [
+   3,
+   7,
+   19,
+   41,
+   57
+  ]
+ }
+}

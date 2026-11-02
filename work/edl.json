@@ -1,0 +1,2415 @@
+{
+ "cards": [
+  {
+   "section": "open",
+   "start": 11.0,
+   "dur": 6.0,
+   "text": "旧时写信，开头常写这四个字——<br>看见我的字，就像看见我的人。",
+   "style": "upper",
+   "sub": null
+  },
+  {
+   "section": "open",
+   "start": 18.2,
+   "dur": 4.6,
+   "text": "可是有些信，写信的人再也没有回来。",
+   "style": "upper",
+   "sub": null
+  },
+  {
+   "section": "open",
+   "start": 23.6,
+   "dur": 4.8,
+   "text": "于是这些字，成了最后一面。",
+   "style": "upper",
+   "sub": null
+  },
+  {
+   "section": "prologue",
+   "start": 63.236,
+   "dur": 6.0,
+   "text": "公元七五七年，安史之乱，长安陷落。<br>四十五岁的杜甫被困城中，写下《春望》。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "prologue",
+   "start": 70.036,
+   "dur": 5.4,
+   "text": "家书抵万金",
+   "style": "brush",
+   "sub": null
+  },
+  {
+   "section": "prologue",
+   "start": 76.036,
+   "dur": 5.0,
+   "text": "一封家书，抵得上万两黄金。<br>因为它在说：我还活着。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "prologue",
+   "start": 81.636,
+   "dur": 4.4,
+   "text": "此后一千二百多年，烽火从未熄灭。",
+   "style": "black",
+   "sub": null
+  },
+  {
+   "section": "prologue",
+   "start": 86.436,
+   "dur": 5.0,
+   "text": "每一场战争里，都有人在一盏灯下，<br>给家里写信。",
+   "style": "black",
+   "sub": null
+  },
+  {
+   "section": "title",
+   "start": 95.236,
+   "dur": 4.8,
+   "text": "LETTERS HOME",
+   "style": "title_en",
+   "sub": null
+  },
+  {
+   "section": "c1",
+   "start": 100.836,
+   "dur": 6.4,
+   "text": "第一封|永不消亡",
+   "style": "chapter",
+   "sub": null
+  },
+  {
+   "section": "c1",
+   "start": 103.236,
+   "dur": 4.6,
+   "text": "一八六一年七月十四日　美国　华盛顿　克拉克营地",
+   "style": "date",
+   "sub": null
+  },
+  {
+   "section": "c1",
+   "start": 108.487,
+   "dur": 6.2,
+   "text": "沙利文·巴卢，三十二岁，律师，北方军少校。<br>写给妻子萨拉。他们有两个年幼的儿子。",
+   "style": "small",
+   "sub": null
+  },
+  {
+   "section": "c1",
+   "start": 154.008,
+   "dur": 7.6,
+   "text": "“双方读的是同一本《圣经》，向同一个上帝祈祷，<br>都祈求他帮助自己打败对方。”",
+   "style": "quote",
+   "sub": "——林肯，1865"
+  },
+  {
+   "section": "c1",
+   "start": 167.608,
+   "dur": 5.2,
+   "text": "七天后，第一次布尔溪战役。一发炮弹击碎了他的腿。<br>一周后，他死在野战医院。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c1",
+   "start": 173.408,
+   "dur": 5.0,
+   "text": "这封信从未寄出。<br>人们在他的遗物里找到它，交给了萨拉。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c1",
+   "start": 179.008,
+   "dur": 5.0,
+   "text": "萨拉终身未再嫁。<br>她去世后，与他葬在了一起。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c2",
+   "start": 185.608,
+   "dur": 4.6,
+   "text": "一九一一年四月二十四日　夜　香港",
+   "style": "date",
+   "sub": null
+  },
+  {
+   "section": "c2",
+   "start": 196.408,
+   "dur": 5.6,
+   "text": "第二封|纸短情长",
+   "style": "chapter_dark",
+   "sub": null
+  },
+  {
+   "section": "c2",
+   "start": 199.208,
+   "dur": 4.4,
+   "text": "林觉民，写给妻子陈意映。",
+   "style": "small_dark",
+   "sub": null
+  },
+  {
+   "section": "c2",
+   "start": 258.309,
+   "dur": 6.0,
+   "text": "写下这封信三天后，林觉民参加广州起义。<br>他受伤被俘，从容就义，年仅二十四岁。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c2",
+   "start": 264.909,
+   "dur": 4.8,
+   "text": "这方手帕，后来辗转送到了陈意映手中。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c2",
+   "start": 270.309,
+   "dur": 5.0,
+   "text": "两年后，陈意映郁郁而终。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 277.109,
+   "dur": 11.6,
+   "text": "一九一四年十二月三日　夜　法国　凡尔格雷",
+   "style": "date",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 277.709,
+   "dur": 5.0,
+   "text": "一周前，德军突袭了他们的战壕。<br>弗洛克下士被俘，又在混乱中逃了回来。",
+   "style": "black",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 283.109,
+   "dur": 5.6,
+   "text": "他和二十三名战友被控“临阵脱逃”。<br>今晚，军事法庭判处其中六人死刑。",
+   "style": "black",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 290.309,
+   "dur": 6.0,
+   "text": "第三封|直到最后一刻",
+   "style": "chapter",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 305.309,
+   "dur": 4.0,
+   "text": "凌晨三点",
+   "style": "time",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 311.509,
+   "dur": 4.6,
+   "text": "亨利·弗洛克，三十三岁。写给妻子露西。",
+   "style": "small",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 334.917,
+   "dur": 3.6,
+   "text": "清晨六点",
+   "style": "time",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 349.776,
+   "dur": 5.4,
+   "text": "几百米外，对面的战壕里，<br>也有人点着蜡烛，给家里写信。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 356.576,
+   "dur": 4.6,
+   "text": "清晨七点半",
+   "style": "time",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 367.176,
+   "dur": 4.6,
+   "text": "六个人，倒在了自己的军队枪下。",
+   "style": "black",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 373.576,
+   "dur": 4.4,
+   "text": "二十天后，平安夜。",
+   "style": "date",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 380.976,
+   "dur": 6.6,
+   "text": "西线的许多地方，两边的士兵走出战壕，<br>互道圣诞快乐，给对方看自己家人的照片。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 394.576,
+   "dur": 5.6,
+   "text": "第二天，他们回到战壕，继续向对方开枪。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 405.176,
+   "dur": 4.8,
+   "text": "一九二一年，法国最高法院撤销原判，宣告六人无罪。",
+   "style": "black",
+   "sub": null
+  },
+  {
+   "section": "c3",
+   "start": 410.576,
+   "dur": 5.0,
+   "text": "那时战争已经结束。<br>一千万名士兵，再也没有回家。",
+   "style": "black",
+   "sub": null
+  },
+  {
+   "section": "c4",
+   "start": 417.376,
+   "dur": 4.4,
+   "text": "多年以后。",
+   "style": "paper",
+   "sub": null
+  },
+  {
+   "section": "c4",
+   "start": 422.776,
+   "dur": 7.4,
+   "text": "一个年轻人在纪念馆里，<br>一字一字抄下母亲留给他的信。",
+   "style": "paper",
+   "sub": null
+  },
+  {
+   "section": "c4",
+   "start": 432.176,
+   "dur": 6.0,
+   "text": "第四封|赶快成人",
+   "style": "chapter",
+   "sub": null
+  },
+  {
+   "section": "c4",
+   "start": 433.176,
+   "dur": 5.0,
+   "text": "一九三六年八月二日　押往珠河的火车上",
+   "style": "date",
+   "sub": null
+  },
+  {
+   "section": "c4",
+   "start": 438.576,
+   "dur": 6.4,
+   "text": "赵一曼，三十一岁，东北抗日联军的女政委。<br>负伤被俘，受尽酷刑。今天，日军要押她回珠河处决。",
+   "style": "small",
+   "sub": null
+  },
+  {
+   "section": "c4",
+   "start": 497.287,
+   "dur": 4.6,
+   "text": "当天，她在珠河被日军杀害。",
+   "style": "paper",
+   "sub": null
+  },
+  {
+   "section": "c4",
+   "start": 502.087,
+   "dur": 3.2,
+   "text": "那个年轻人，就是宁儿。",
+   "style": "paper",
+   "sub": null
+  },
+  {
+   "section": "c4",
+   "start": 505.687,
+   "dur": 6.0,
+   "text": "他长大后才知道，那个叫“赵一曼”的英雄，就是他的妈妈。",
+   "style": "papermid",
+   "sub": null
+  },
+  {
+   "section": "c4",
+   "start": 511.887,
+   "dur": 5.2,
+   "text": "抄完信，他用钢笔，在自己的手臂上，<br>刺下了这三个字。",
+   "style": "papermid",
+   "sub": null
+  },
+  {
+   "section": "c5",
+   "start": 518.287,
+   "dur": 6.0,
+   "text": "第五封|念念",
+   "style": "chapter_dark",
+   "sub": null
+  },
+  {
+   "section": "c5",
+   "start": 519.487,
+   "dur": 4.8,
+   "text": "一九四二年　夏　延安",
+   "style": "paper",
+   "sub": null
+  },
+  {
+   "section": "c5",
+   "start": 524.687,
+   "dur": 5.6,
+   "text": "刘志兰收到了丈夫从前线寄来的信。<br>女儿北北，刚满两岁。",
+   "style": "small_dark",
+   "sub": null
+  },
+  {
+   "section": "c5",
+   "start": 559.244,
+   "dur": 5.0,
+   "text": "这是他们一家唯一的一张合影。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c5",
+   "start": 567.644,
+   "dur": 5.0,
+   "text": "这封信写于五月二十二日，太行山。<br>写信的人，是八路军副参谋长左权。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c5",
+   "start": 573.244,
+   "dur": 4.4,
+   "text": "三天后，日军合围。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c5",
+   "start": 591.844,
+   "dur": 4.8,
+   "text": "他在十字岭指挥突围时牺牲，三十七岁。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c5",
+   "start": 597.244,
+   "dur": 4.2,
+   "text": "再过两天，就是北北两岁的生日。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c5",
+   "start": 602.044,
+   "dur": 5.4,
+   "text": "这封信寄到延安时，他已经牺牲一个多月了。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "c5",
+   "start": 608.244,
+   "dur": 5.4,
+   "text": "这封信里，没有告别。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "epi",
+   "start": 623.244,
+   "dur": 3.6,
+   "text": "信，到了。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "epi",
+   "start": 635.244,
+   "dur": 6.0,
+   "text": "他们来自不同的国家，说着不同的语言，<br>为不同的理由走上战场。<br>有的人，就站在彼此的对面。",
+   "style": "black",
+   "sub": null
+  },
+  {
+   "section": "epi",
+   "start": 641.644,
+   "dur": 3.6,
+   "text": "可他们在灯下写下的，是同样的话：",
+   "style": "black",
+   "sub": null
+  },
+  {
+   "section": "epi",
+   "start": 673.644,
+   "dur": 5.6,
+   "text": "两次世界大战，八千万人以上死于战火。",
+   "style": "dark",
+   "sub": null
+  },
+  {
+   "section": "epi",
+   "start": 681.244,
+   "dur": 6.4,
+   "text": "每一个人，都曾是某个家里，等着回来的人。",
+   "style": "dark",
+   "sub": null
+  },
+  {
+   "section": "epi",
+   "start": 696.444,
+   "dur": 5.4,
+   "text": "今天，家书已经不用纸写了。",
+   "style": "black",
+   "sub": null
+  },
+  {
+   "section": "epi",
+   "start": 739.304,
+   "dur": 6.6,
+   "text": "可在世界上的一些地方，<br>仍然有人在战火里，写下同一句话。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "epi",
+   "start": 747.304,
+   "dur": 4.6,
+   "text": "烽火连三月，<br>家书抵万金。",
+   "style": "brush",
+   "sub": null
+  },
+  {
+   "section": "epi",
+   "start": 752.304,
+   "dur": 7.0,
+   "text": "愿每一封家书，<br>都等得到写信的人回家。",
+   "style": "card",
+   "sub": null
+  },
+  {
+   "section": "end",
+   "start": 764.304,
+   "dur": 5.4,
+   "text": "LETTERS HOME",
+   "style": "title_en",
+   "sub": null
+  },
+  {
+   "section": "end",
+   "start": 770.504,
+   "dur": 14.0,
+   "text": "导演　Claude Opus 5.5<br><br>音乐<br>《大提琴组曲第一号·萨拉班德》　《G弦上的咏叹调》　《升c小调夜曲》　《平安夜》<br>《裸体歌舞第一号》　《第九交响曲·广板》　《第五交响曲·小柔板》<br><br>配音　Qwen TTS<br>人物剪影　Z-Image Turbo",
+   "style": "credits",
+   "sub": null
+  }
+ ],
+ "subs": [
+  {
+   "start": 37.9,
+   "dur": 8.776,
+   "cn": "国破山河在，城春草木深。",
+   "orig": null
+  },
+  {
+   "start": 47.176,
+   "dur": 6.979,
+   "cn": "感时花溅泪，恨别鸟惊心。",
+   "orig": null
+  },
+  {
+   "start": 55.055,
+   "dur": 7.981,
+   "cn": "烽火连三月，家书抵万金。",
+   "orig": null
+  },
+  {
+   "start": 105.336,
+   "dur": 2.001,
+   "cn": "我最亲爱的萨拉：",
+   "orig": "My very dear Sarah,"
+  },
+  {
+   "start": 108.187,
+   "dur": 5.273,
+   "cn": "种种迹象表明，几天之内我们就要开拔——也许就是明天。",
+   "orig": "The indications are very strong that we shall move in a few days — perhaps tomorrow."
+  },
+  {
+   "start": 114.01,
+   "dur": 7.809,
+   "cn": "我怕再没有机会给你写信，所以写下这几行字。等我不在了，它们会落进你的眼里。",
+   "orig": "Lest I should not be able to write you again, I feel impelled to write lines that may fall under your eye when I shall be no more."
+  },
+  {
+   "start": 123.569,
+   "dur": 7.638,
+   "cn": "萨拉，我对你的爱永不消亡。它像粗大的缆绳把我捆住，除了上苍，没有什么能将它挣断。",
+   "orig": "Sarah, my love for you is deathless. It seems to bind me with mighty cables that nothing but Omnipotence could break."
+  },
+  {
+   "start": 132.357,
+   "dur": 5.014,
+   "cn": "如果我回不来了，亲爱的萨拉，永远不要忘记我有多爱你。",
+   "orig": "If I do not return, my dear Sarah, never forget how much I love you."
+  },
+  {
+   "start": 138.121,
+   "dur": 4.985,
+   "cn": "如果有一阵微风拂过你的脸颊，那就是我的呼吸。",
+   "orig": "And if there be a soft breeze upon your cheek, it shall be my breath."
+  },
+  {
+   "start": 143.856,
+   "dur": 6.502,
+   "cn": "萨拉，不要为我的死哀伤。就当我只是走了，等着我，我们终会重逢。",
+   "orig": "Sarah, do not mourn me dead. Think I am gone, and wait for thee, for we shall meet again."
+  },
+  {
+   "start": 203.108,
+   "dur": 8.982,
+   "cn": "意映卿卿如晤：吾今以此书与汝永别矣！",
+   "orig": null
+  },
+  {
+   "start": 212.74,
+   "dur": 7.99,
+   "cn": "吾作此书时，尚是世中一人；汝看此书时，吾已成为阴间一鬼。",
+   "orig": null
+  },
+  {
+   "start": 221.68,
+   "dur": 6.603,
+   "cn": "吾至爱汝，即此爱汝一念，使吾勇于就死也。",
+   "orig": null
+  },
+  {
+   "start": 229.233,
+   "dur": 13.078,
+   "cn": "窗外疏梅筛月影，依稀掩映；吾与汝并肩携手，低低切切，何事不语？何情不诉？",
+   "orig": null
+  },
+  {
+   "start": 243.261,
+   "dur": 9.798,
+   "cn": "纸短情长，所未尽者，尚有万千。吾今不能见汝矣！",
+   "orig": null
+  },
+  {
+   "start": 311.209,
+   "dur": 2.046,
+   "cn": "我亲爱的露西：",
+   "orig": "Ma bien chère Lucie,"
+  },
+  {
+   "start": 313.705,
+   "dur": 3.571,
+   "cn": "当这封信到你手里的时候，我已经被枪决了。",
+   "orig": "Quand cette lettre te parviendra, je serai mort fusillé."
+  },
+  {
+   "start": 318.026,
+   "dur": 3.897,
+   "cn": "我并不比别人更有罪，但他们需要一个“榜样”。",
+   "orig": "Je ne suis pas plus coupable que les autres, mais il faut un exemple."
+  },
+  {
+   "start": 323.273,
+   "dur": 5.849,
+   "cn": "我匆匆向你作最后的告别，眼里含着泪，心里满是痛苦。",
+   "orig": "Je te fais mes derniers adieux à la hâte, les larmes aux yeux, l'âme en peine."
+  },
+  {
+   "start": 329.472,
+   "dur": 4.595,
+   "cn": "我跪下来，卑微地求你原谅，原谅我将带给你的一切悲伤。",
+   "orig": "Je te demande à genoux humblement pardon pour toute la peine que je vais te causer."
+  },
+  {
+   "start": 335.417,
+   "dur": 1.793,
+   "cn": "我死得清白。",
+   "orig": "Je meurs innocent."
+  },
+  {
+   "start": 338.16,
+   "dur": 3.966,
+   "cn": "我最后的念头是你，直到最后一刻。",
+   "orig": "Ma dernière pensée, à toi, jusqu'au bout."
+  },
+  {
+   "start": 447.676,
+   "dur": 1.147,
+   "cn": "宁儿：",
+   "orig": null
+  },
+  {
+   "start": 449.573,
+   "dur": 6.369,
+   "cn": "母亲对于你没有能尽到教育的责任，实在是遗憾的事情。",
+   "orig": null
+  },
+  {
+   "start": 456.692,
+   "dur": 8.134,
+   "cn": "母亲因为坚决地做了反满抗日的斗争，今天已经到了牺牲的前夕了。",
+   "orig": null
+  },
+  {
+   "start": 466.176,
+   "dur": 4.822,
+   "cn": "母亲和你在生前是永久没有再见的机会了。",
+   "orig": null
+  },
+  {
+   "start": 471.948,
+   "dur": 6.651,
+   "cn": "希望你，宁儿啊！赶快成人，来安慰你地下的母亲！",
+   "orig": null
+  },
+  {
+   "start": 479.549,
+   "dur": 8.342,
+   "cn": "我最亲爱的孩子啊！母亲不用千言万语来教育你，就用实行来教育你。",
+   "orig": null
+  },
+  {
+   "start": 488.841,
+   "dur": 6.196,
+   "cn": "在你长大成人之后，希望不要忘记你的母亲是为国而牺牲的！",
+   "orig": null
+  },
+  {
+   "start": 530.187,
+   "dur": 11.994,
+   "cn": "志兰！亲爱的，别时容易见时难，分离廿一个月了，何日相聚，念念、念念！",
+   "orig": null
+  },
+  {
+   "start": 543.731,
+   "dur": 11.663,
+   "cn": "有时总仿佛有你及北北，与我在一块玩着、谈着，特别是北北非常调皮……",
+   "orig": null
+  }
+ ],
+ "audio": [
+  {
+   "src": "assets/audio/sfx/match_strike.wav",
+   "start": 1.35,
+   "vol": 0.275,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/pen2.wav",
+   "start": 4.1,
+   "vol": 0.1,
+   "dur": 5.6,
+   "media": 3.0,
+   "fin": 0.3,
+   "fout": 0.6,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/paper_burn.wav",
+   "start": 29.6,
+   "vol": 0.175,
+   "dur": 5.5,
+   "media": 0.0,
+   "fin": 1.2,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/fire_city.wav",
+   "start": 34.0,
+   "vol": 0.225,
+   "dur": 41.0,
+   "media": 0.0,
+   "fin": 2.5,
+   "fout": 2.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_warm.wav",
+   "start": 34.0,
+   "vol": 0.125,
+   "dur": 38.5,
+   "media": 0,
+   "fin": 1.5,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_warm.wav",
+   "start": 71.5,
+   "vol": 0.125,
+   "dur": 2.5,
+   "media": 7.3,
+   "fin": 1.0,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/music/m_sarabande.wav",
+   "start": 10.0,
+   "vol": 0.725,
+   "dur": 78.0,
+   "media": 0.0,
+   "fin": 6.0,
+   "fout": 4.0,
+   "kind": "music"
+  },
+  {
+   "src": "assets/audio/vo/dufu_00.wav",
+   "start": 38.0,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/dufu_01.wav",
+   "start": 47.276,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/dufu_02.wav",
+   "start": 55.155,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/music/m_air.wav",
+   "start": 100.636,
+   "vol": 0.435,
+   "dur": 78,
+   "media": 0.0,
+   "fin": 3.0,
+   "fout": 6.0,
+   "kind": "music"
+  },
+  {
+   "src": "assets/audio/vo/ballou_00.wav",
+   "start": 105.436,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/ballou_01.wav",
+   "start": 108.287,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/ballou_02.wav",
+   "start": 114.11,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/ballou_03.wav",
+   "start": 123.669,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/ballou_04.wav",
+   "start": 132.457,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/ballou_05.wav",
+   "start": 138.221,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/ballou_06.wav",
+   "start": 143.956,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/sfx/crickets.wav",
+   "start": 99.836,
+   "vol": 0.14,
+   "dur": 29.5,
+   "media": 0,
+   "fin": 2.0,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/crickets.wav",
+   "start": 128.336,
+   "vol": 0.14,
+   "dur": 3.221,
+   "media": 7.3,
+   "fin": 1.0,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_warm.wav",
+   "start": 99.836,
+   "vol": 0.11,
+   "dur": 38.5,
+   "media": 0,
+   "fin": 2.0,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_warm.wav",
+   "start": 137.336,
+   "vol": 0.11,
+   "dur": 7.02,
+   "media": 7.3,
+   "fin": 1.0,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_warm.wav",
+   "start": 131.057,
+   "vol": 0.15,
+   "dur": 7.364,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/crickets.wav",
+   "start": 144.356,
+   "vol": 0.1,
+   "dur": 8.852,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_warm.wav",
+   "start": 151.608,
+   "vol": 0.19,
+   "dur": 15.0,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/fire_city.wav",
+   "start": 152.608,
+   "vol": 0.11,
+   "dur": 14.0,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 153.108,
+   "vol": 0.19,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 154.037,
+   "vol": 0.275,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 154.965,
+   "vol": 0.19,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 155.894,
+   "vol": 0.275,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 156.822,
+   "vol": 0.19,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 157.751,
+   "vol": 0.275,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 158.679,
+   "vol": 0.19,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 159.608,
+   "vol": 0.275,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 160.537,
+   "vol": 0.19,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 161.465,
+   "vol": 0.275,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 162.394,
+   "vol": 0.19,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 163.322,
+   "vol": 0.275,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 164.251,
+   "vol": 0.19,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 165.179,
+   "vol": 0.275,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/crickets.wav",
+   "start": 166.608,
+   "vol": 0.08,
+   "dur": 18.0,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/waves.wav",
+   "start": 184.108,
+   "vol": 0.2,
+   "dur": 10.7,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/music/m_chopin.wav",
+   "start": 197.608,
+   "vol": 0.522,
+   "dur": 120,
+   "media": 0.0,
+   "fin": 3.0,
+   "fout": 6.0,
+   "kind": "music"
+  },
+  {
+   "src": "assets/audio/vo/lin_00.wav",
+   "start": 203.208,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/lin_01.wav",
+   "start": 212.84,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/lin_02.wav",
+   "start": 221.78,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/lin_03.wav",
+   "start": 229.333,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/lin_04.wav",
+   "start": 243.361,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/sfx/pen2.wav",
+   "start": 203.208,
+   "vol": 0.05,
+   "dur": 24.725,
+   "media": 0.0,
+   "fin": 0.6,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/pen2.wav",
+   "start": 243.361,
+   "vol": 0.05,
+   "dur": 9.348,
+   "media": 6,
+   "fin": 0.4,
+   "fout": 0.8,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/fire_city.wav",
+   "start": 242.161,
+   "vol": 0.11,
+   "dur": 3.0,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/paper_burn.wav",
+   "start": 254.309,
+   "vol": 0.275,
+   "dur": 7.0,
+   "media": 0.0,
+   "fin": 0.4,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/fire_city.wav",
+   "start": 255.309,
+   "vol": 0.225,
+   "dur": 21.0,
+   "media": 0.0,
+   "fin": 3.0,
+   "fout": 2.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/gunshot_far.wav",
+   "start": 257.309,
+   "vol": 0.125,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/gunshot_far.wav",
+   "start": 258.409,
+   "vol": 0.175,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/gunshot_far.wav",
+   "start": 259.109,
+   "vol": 0.125,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/gunshot_far.wav",
+   "start": 260.609,
+   "vol": 0.175,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/gunshot_far.wav",
+   "start": 261.709,
+   "vol": 0.125,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/gunshot_far.wav",
+   "start": 263.309,
+   "vol": 0.175,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/rain.wav",
+   "start": 288.309,
+   "vol": 0.2,
+   "dur": 44.5,
+   "media": 0,
+   "fin": 2.0,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/rain.wav",
+   "start": 331.809,
+   "vol": 0.2,
+   "dur": 44.5,
+   "media": 0,
+   "fin": 1.0,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/rain.wav",
+   "start": 375.309,
+   "vol": 0.2,
+   "dur": 4.0,
+   "media": 14.6,
+   "fin": 1.0,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/rain_thunder.wav",
+   "start": 289.309,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 1.0,
+   "fout": 2.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 289.609,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 290.709,
+   "vol": 0.225,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 291.809,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 292.909,
+   "vol": 0.225,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 294.009,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 295.109,
+   "vol": 0.225,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 296.209,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 297.309,
+   "vol": 0.225,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 298.409,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 299.509,
+   "vol": 0.225,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 300.609,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/cannon.wav",
+   "start": 301.709,
+   "vol": 0.225,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/gunshot_far.wav",
+   "start": 297.109,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/gunshot_far.wav",
+   "start": 298.009,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/gunshot_far.wav",
+   "start": 298.909,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/gunshot_far.wav",
+   "start": 299.809,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/gunshot_far.wav",
+   "start": 300.709,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/vo/floch_00.wav",
+   "start": 311.309,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/floch_01.wav",
+   "start": 313.805,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/floch_02.wav",
+   "start": 318.126,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/floch_03.wav",
+   "start": 323.373,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/floch_04.wav",
+   "start": 329.572,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/floch_05.wav",
+   "start": 335.517,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/floch_06.wav",
+   "start": 338.26,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/sfx/pen.wav",
+   "start": 311.309,
+   "vol": 0.08,
+   "dur": 30.467,
+   "media": 0.0,
+   "fin": 0.4,
+   "fout": 0.8,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_cold.wav",
+   "start": 354.376,
+   "vol": 0.125,
+   "dur": 12.0,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/volley.wav",
+   "start": 362.256,
+   "vol": 0.425,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_cold.wav",
+   "start": 372.376,
+   "vol": 0.08,
+   "dur": 32.0,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/music/m_stille.wav",
+   "start": 374.376,
+   "vol": 0.609,
+   "dur": 31.0,
+   "media": 0.0,
+   "fin": 3.0,
+   "fout": 6.0,
+   "kind": "music"
+  },
+  {
+   "src": "assets/audio/music/m_satie.wav",
+   "start": 416.876,
+   "vol": 0.609,
+   "dur": 104,
+   "media": 0.0,
+   "fin": 3.0,
+   "fout": 7.0,
+   "kind": "music"
+  },
+  {
+   "src": "assets/audio/sfx/pen.wav",
+   "start": 417.876,
+   "vol": 0.08,
+   "dur": 10.5,
+   "media": 0.0,
+   "fin": 0.4,
+   "fout": 0.8,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/train_rattle.wav",
+   "start": 430.376,
+   "vol": 0.16,
+   "dur": 13.3,
+   "media": 0,
+   "fin": 2.0,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/train_rattle.wav",
+   "start": 442.676,
+   "vol": 0.16,
+   "dur": 13.3,
+   "media": 0,
+   "fin": 1.0,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/train_rattle.wav",
+   "start": 454.976,
+   "vol": 0.16,
+   "dur": 13.3,
+   "media": 0,
+   "fin": 1.0,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/train_rattle.wav",
+   "start": 467.276,
+   "vol": 0.16,
+   "dur": 13.3,
+   "media": 0,
+   "fin": 1.0,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/train_rattle.wav",
+   "start": 479.576,
+   "vol": 0.16,
+   "dur": 13.3,
+   "media": 0,
+   "fin": 1.0,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/train_rattle.wav",
+   "start": 491.876,
+   "vol": 0.16,
+   "dur": 13.3,
+   "media": 0,
+   "fin": 1.0,
+   "fout": 1.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/train_rattle.wav",
+   "start": 504.176,
+   "vol": 0.16,
+   "dur": 3.2,
+   "media": 0.8,
+   "fin": 1.0,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/train_chuff.wav",
+   "start": 431.776,
+   "vol": 0.25,
+   "dur": null,
+   "media": 0.0,
+   "fin": 1.0,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/whistle.wav",
+   "start": 435.576,
+   "vol": 0.175,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_warm.wav",
+   "start": 431.376,
+   "vol": 0.11,
+   "dur": 14.0,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/vo/zhao_00.wav",
+   "start": 447.776,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/zhao_01.wav",
+   "start": 449.673,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/zhao_02.wav",
+   "start": 456.792,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/zhao_03.wav",
+   "start": 466.276,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/zhao_04.wav",
+   "start": 472.048,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/zhao_05.wav",
+   "start": 479.649,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/zhao_06.wav",
+   "start": 488.941,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/sfx/pen2.wav",
+   "start": 447.776,
+   "vol": 0.05,
+   "dur": 16.7,
+   "media": 8,
+   "fin": 0.5,
+   "fout": 0.8,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/pen.wav",
+   "start": 505.287,
+   "vol": 0.11,
+   "dur": 6.0,
+   "media": 6,
+   "fin": 0.2,
+   "fout": 0.6,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_warm.wav",
+   "start": 517.287,
+   "vol": 0.06,
+   "dur": 14.0,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/music/m_largo.wav",
+   "start": 518.287,
+   "vol": 0.725,
+   "dur": 96,
+   "media": 24.0,
+   "fin": 4.0,
+   "fout": 6.0,
+   "kind": "music"
+  },
+  {
+   "src": "assets/audio/vo/zuo_00.wav",
+   "start": 530.287,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/zuo_01.wav",
+   "start": 543.831,
+   "vol": 0.85,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/sfx/wind_mountain.wav",
+   "start": 566.144,
+   "vol": 0.15,
+   "dur": 12.5,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_mountain.wav",
+   "start": 577.644,
+   "vol": 0.15,
+   "dur": 13.0,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/aircraft.wav",
+   "start": 579.144,
+   "vol": 0.275,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/aircraft.wav",
+   "start": 582.144,
+   "vol": 0.2,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/explosion.wav",
+   "start": 579.194,
+   "vol": 0.21,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/explosion.wav",
+   "start": 580.861,
+   "vol": 0.275,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/explosion.wav",
+   "start": 582.527,
+   "vol": 0.21,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/explosion.wav",
+   "start": 584.194,
+   "vol": 0.275,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/explosion.wav",
+   "start": 585.861,
+   "vol": 0.21,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/explosion.wav",
+   "start": 587.527,
+   "vol": 0.275,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_warm.wav",
+   "start": 590.644,
+   "vol": 0.05,
+   "dur": 24.0,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_cold.wav",
+   "start": 614.644,
+   "vol": 0.1,
+   "dur": 20.0,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/music/m_mahler.wav",
+   "start": 615.144,
+   "vol": 0.899,
+   "dur": 110.66,
+   "media": 502.0,
+   "fin": 4.0,
+   "fout": 0.12,
+   "kind": "music"
+  },
+  {
+   "src": "assets/audio/vo/ballou_04.wav",
+   "start": 625.044,
+   "vol": 0.527,
+   "dur": 2.7,
+   "media": 2.1,
+   "fin": 0.3,
+   "fout": 0.8,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/lin_02.wav",
+   "start": 626.644,
+   "vol": 0.527,
+   "dur": 3.4,
+   "media": 0.0,
+   "fin": 0.3,
+   "fout": 0.8,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/floch_06.wav",
+   "start": 628.244,
+   "vol": 0.527,
+   "dur": 3.5,
+   "media": 0.0,
+   "fin": 0.3,
+   "fout": 0.8,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/zhao_05.wav",
+   "start": 629.844,
+   "vol": 0.527,
+   "dur": 2.6,
+   "media": 0.0,
+   "fin": 0.3,
+   "fout": 0.8,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/vo/zuo_00.wav",
+   "start": 631.244,
+   "vol": 0.527,
+   "dur": 2.8,
+   "media": 8.944,
+   "fin": 0.3,
+   "fout": 0.8,
+   "kind": "vo"
+  },
+  {
+   "src": "assets/audio/sfx/pen.wav",
+   "start": 646.644,
+   "vol": 0.09,
+   "dur": 1.6,
+   "media": 4.0,
+   "fin": 0.1,
+   "fout": 0.4,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/pen.wav",
+   "start": 649.844,
+   "vol": 0.09,
+   "dur": 1.6,
+   "media": 6.5,
+   "fin": 0.1,
+   "fout": 0.4,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/pen.wav",
+   "start": 653.044,
+   "vol": 0.09,
+   "dur": 2.2,
+   "media": 9.0,
+   "fin": 0.1,
+   "fout": 0.4,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/pen.wav",
+   "start": 650.094,
+   "vol": 0.035,
+   "dur": 1.8,
+   "media": 1.0,
+   "fin": 0.3,
+   "fout": 0.6,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/pen2.wav",
+   "start": 650.404,
+   "vol": 0.035,
+   "dur": 1.8,
+   "media": 2.7,
+   "fin": 0.3,
+   "fout": 0.6,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/pen.wav",
+   "start": 653.294,
+   "vol": 0.043,
+   "dur": 1.8,
+   "media": 1.0,
+   "fin": 0.3,
+   "fout": 0.6,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/pen2.wav",
+   "start": 653.604,
+   "vol": 0.043,
+   "dur": 1.8,
+   "media": 2.7,
+   "fin": 0.3,
+   "fout": 0.6,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/pen.wav",
+   "start": 653.914,
+   "vol": 0.043,
+   "dur": 1.8,
+   "media": 4.4,
+   "fin": 0.3,
+   "fout": 0.6,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/pen2.wav",
+   "start": 654.224,
+   "vol": 0.043,
+   "dur": 1.8,
+   "media": 6.1,
+   "fin": 0.3,
+   "fout": 0.6,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/candle_room.wav",
+   "start": 645.644,
+   "vol": 0.05,
+   "dur": 12.6,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_mountain.wav",
+   "start": 658.644,
+   "vol": 0.11,
+   "dur": 37.0,
+   "media": 0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/wind_cold.wav",
+   "start": 702.644,
+   "vol": 0.08,
+   "dur": 35.26,
+   "media": 0.0,
+   "fin": 1.5,
+   "fout": 1.5,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 712.244,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 712.664,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 713.084,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 715.104,
+   "vol": 0.11,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 715.324,
+   "vol": 0.11,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 715.544,
+   "vol": 0.11,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 717.164,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 717.624,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 718.084,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 718.544,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 719.004,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 719.464,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 719.924,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 720.384,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 720.844,
+   "vol": 0.15,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/key_press.mp3",
+   "start": 722.184,
+   "vol": 0.2,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/explosion.wav",
+   "start": 705.644,
+   "vol": 0.09,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/explosion.wav",
+   "start": 711.944,
+   "vol": 0.09,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/explosion.wav",
+   "start": 718.244,
+   "vol": 0.09,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/sfx/explosion.wav",
+   "start": 724.544,
+   "vol": 0.09,
+   "dur": null,
+   "media": 0.0,
+   "fin": 0.0,
+   "fout": 0.0,
+   "kind": "sfx"
+  },
+  {
+   "src": "assets/audio/music/m_largo.wav",
+   "start": 738.904,
+   "vol": 1.667,
+   "dur": 36.0,
+   "media": 628.0,
+   "fin": 5.0,
+   "fout": 6.0,
+   "kind": "music"
+  }
+ ],
+ "phone": {
+  "start": 702.644,
+  "dur": 35.26,
+  "fail": 23.16
+ }
+}
